@@ -1,0 +1,7 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @basic(b) feature(f) }
+#+STARTUP: indent
+
+* TODO Fix stop event not overwriting update stop event
+** TODO Have two logs, one that is start and stop, the other is players online before crash 
+* TODO Fix loading that erases data from yaml config

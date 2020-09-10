@@ -1,0 +1,34 @@
+* Control Stuctures
+
+** Language Designers History
+1. If Fortran
+2. Case AlgolW
+3. For Algol-60
+4. Do COBOL
+5. If-Then-Else COBOL
+6. If-Then-Elsif Algol-68
+7. While Pascal (1970) Most control structures were in one language
+
+* Languages' Implementations of Branching and Control
+
+** Ada
+
+<AdaIf> ::= if <condition> then <stmtlist> <elsif> <elsepart> end if;
+<elsifpart> ::= elsif <condition> then <stmtlist> <elsifpart> | E
+<elsepart> ::= else <stmtlist> | E
+
+
+** Lisp
+
+<if-expr> ::= (if<predicate><expr><opt-expr>)
+<op-expr> ::= <expr> | E
+
+
+** SmallTalk
+
+<selection-msg> ::= <ifT-msg> | <ifF-msg> | <ifTF-msg> | <ifFT-msg>
+<ifT-msg> ::= ifTrue: <block>
+<ifF-msg> ::= ifFalse: <block>
+<ifTF-msg> ::= ifTrue: <block> ifFalse: <block>
+<ifFT-msg> ::= ifFalse: <block> ifTrue: <block>
+

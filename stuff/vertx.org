@@ -1,0 +1,22 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @basic(b) feature(f) }
+#+STARTUP: indent
+
+* DONE Time Management
+
+* TODO Discord Bot Integration
+
+** STARTED Show server status (online or not)                       :@basic:
+
+*** TODO Figure out how to have bot write its own status message
+
+*** TODO Add event_name called "Server" and record server being on and off
+
+** TODO Write in one channel people who log in                     :feature:
+
+*** TODO Get API for converting uuid to username
+
+** TODO bot that answers questions of total time of certain players :@basic:
+
+** TODO Discord Roles Bot that takes into account how much time spent on server :feature:
+

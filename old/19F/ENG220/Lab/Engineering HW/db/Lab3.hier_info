@@ -1,0 +1,12 @@
+|Lab3
+L4 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Clock => inst4.CLK
+Clock => inst3.CLK
+Clock => inst2.CLK
+Clock => inst5.CLK
+ResetLow => inst10.IN1
+L3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+L2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+L1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

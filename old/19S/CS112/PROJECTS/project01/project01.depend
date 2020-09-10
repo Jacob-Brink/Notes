@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1549554547 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\main.cpp
+	"SongTester.h"
+	"PlayListTester.h"
+	"Application.h"
+
+1549393663 c:\users\jacob\documents\school\college\19s\cs112\projects\project01\songtester.h
+
+1549396941 c:\users\jacob\documents\school\college\19s\cs112\projects\project01\playlisttester.h
+
+1549554381 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\song.cpp
+	"Song.h"
+	<cstdlib>
+
+1549394929 c:\users\jacob\documents\school\college\19s\cs112\projects\project01\song.h
+	<string>
+	<iostream>
+
+1549554381 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\songtester.cpp
+	"SongTester.h"
+	"Song.h"
+	<cassert>
+	<fstream>
+
+1549577501 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\playlisttester.cpp
+	"PlayListTester.h"
+	"PlayList.h"
+	<cassert>
+	<iostream>
+
+1549459803 c:\users\jacob\documents\school\college\19s\cs112\projects\project01\playlist.h
+	"Song.h"
+	<vector>
+	<string>
+
+1549478672 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\playlist.cpp
+	"PlayList.h"
+	<fstream>
+	<cassert>
+
+1549919601 source:c:\users\jacob\documents\school\college\19s\cs112\projects\project01\application.cpp
+	"Application.h"
+	<climits>
+
+1549570655 c:\users\jacob\documents\school\college\19s\cs112\projects\project01\application.h
+	"PlayList.h"
+

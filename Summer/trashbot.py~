@@ -1,0 +1,47 @@
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver import Firefox
+from selenium.webdriver.support.ui import Select
+import random
+
+profile = webdriver.FirefoxProfile()
+profile.set_preference('javascript.enabled', True)
+profile.set_preference("dom.webdriver.enabled", False)
+profile.set_preference('useAutomationExtension', False)
+profile.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0")
+profile.update_preferences()
+
+options = Options()
+#options.add_argument("--headless")
+
+
+
+driver = webdriver.Firefox(firefox_profile=profile, options=options)
+
+
+def set_window():
+    driver.set_window_size(1920+random.randint(20,90), 1080+random.randint(20,90))
+
+set_window()
+    
+# Don't put the path to geckodriver in the following. But the firefox executable
+# must be in the path. If not, include the path to firefox, not geckodriver below.
+
+
+
+driver.get('https://resources.calvin.edu/selfservice/WebAdvisor?TYPE=P&PID=ST-WESTS12A&LASTTOKEN=NULL')
+
+# Print the first 300 characters on the page.
+print(driver.page_source[:300])
+driver.get_window_size()
+#driver.quit()
+
+
+
+b = webdriver.Firefox()
+
+# navigate to the page
+select = Select(b.find_element_by_id("VAR1"))
+print(select.options)
+# print [o.text for o in select.options] # these are string-s
+# select.select_by_visible_text(....)

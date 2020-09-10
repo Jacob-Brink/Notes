@@ -1,0 +1,58 @@
+
+Formal Definitions
+       Let E greek be a set of symbols
+       A string over E is a finite sequence of zero or more symbols from the set of E
+       Terminals (symbols whose meaning is predefined)
+       		 A,_,6 are terminals in our <identifier> BNF
+	Non-Terminals must be defined by angle-brackets
+		- Starting Non-Terminal (<identifier>)
+		- Production rule
+		  - <LHS> ::= <RHS>
+		    * <LHS> is nonterminal being defined
+		    * <RHS> is a string of terminals and/or nonterminals defining <LHS>
+		    * Different productions defining the same non terminal can use | for OR operator
+		- BNF (E, N, P, S)
+			E: set of symbols in the BNF
+			N: subset of E that are nonterminals in the language
+			P: set of productions defining the symbols in N
+			S: element of N that is the starting nonterminal
+		- BNF Derivation Tree
+		  * Root of tree is the starting non terminal (S)
+		  * children of the root are symbols (L to R)
+		  * terminal child is leaf
+		  * nonterminal child is the root of a derivation tree for that nonterminal
+		- Derivation is a sequence of strings, beginning with starting nonterminal S, in which each successive string replaces a nonterminal with one of its productions, final string consists solely of terminals
+		- Parsing (building a derivation tree for a sentence)
+		  * set of valid sentences in a language is the set of all sentences for which a parse tree exists
+
+		  * Writing BNFs
+
+		    * Start with the non-terminal you're defining
+
+		    * Build the productions to define the non-terminals
+
+		      * What comes first?
+
+		      * if a construct is optional
+
+			* create a new nonterminal for that construct
+
+			* add a production for the non-optional case
+
+			* add an E-production for the optional case
+
+		      * If a construct is repeated zero or more times
+
+			* create a new nonterminal for that construct
+
+			* add an E production for the zero reps case
+
+			* add a recursive produciotn for the other cases
+
+When a "sentence" has multiple parse trees, it is ambiguous 
+
+
+
+
+
+

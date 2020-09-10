@@ -1,0 +1,51 @@
+* Concurrent Programming
+** Ada uses Task
+** Java uses Thread class
+** C++ uses thread
+* Terminology
+** uniprocessor
+*** Computer with one processing core
+*** pseudo-parallel execution (logical concurrency) time-shares
+** multiprocessor
+*** cpu with multiple processing cores
+*** parallel execution (true concurrency)
+*** Coupling
+**** tightly-coupled
+***** cores share main memory
+**** loosely-coupled
+***** cores do not share main memory
+* Parallelizing Compilers
+** builds dependency graphs
+** uses them to run statements that don't depend on each other
+* Processes and Threads
+** Process
+*** computation
+** Thread of Execution
+*** sequence of events
+*** deterministic vs non-deterministic
+**** determinisitic
+***** doesn't change based on input
+**** non-deterministic
+***** changes on input
+* Goal
+* : Speedup
+** Speedup = T1 / TN
+* Responsiveness
+** GUI's, have one thread doing time-consuming tasks, one to handle user interface
+** Network Servers
+* Event Interleaving
+** Different functions may have their statements not run together
+* Communication
+** Tightly-coupled multiprocessor
+*** communicates through shared memory
+** Loosely-coupled multiprocessor
+*** message-passing
+* Shared Memory Synchonization
+** Fixes the issue of accessing shared memory concurrently
+** Forces only one thread at a time to access the shared memory
+* Synchrony
+** (Slower) Lock-Step Synchrony vs No Synchrony (Faster)
+* Producer-Consumer Problem
+** Producers produce tasks and Consumers handle tasks
+** Must 
+

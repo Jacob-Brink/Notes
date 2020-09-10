@@ -1,0 +1,15 @@
+<div id="save-button" class="style-scope ytd-playlist-panel-renderer"><ytd-toggle-button-renderer class="style-scope ytd-playlist-panel-renderer style-grey-text size-default" use-keyboard-focused="" button-renderer="true" is-icon-button="" has-no-text=""><a class="yt-simple-endpoint style-scope ytd-toggle-button-renderer" tabindex="-1"><yt-icon-button id="button" class="style-scope ytd-toggle-button-renderer style-grey-text size-default"><!--css-build:shady--><button id="button" class="style-scope yt-icon-button" aria-label="Save playlist" aria-pressed="false"><yt-icon class="style-scope ytd-toggle-button-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+        <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z" class="style-scope yt-icon"></path>
+      </g></svg><!--css-build:shady-->
+    
+    
+  </yt-icon></button><paper-ripple class="style-scope yt-icon-button"><!--css-build:shady-->
+
+    <div id="background" class="style-scope paper-ripple" style="opacity: 0;"></div>
+    <div id="waves" class="style-scope paper-ripple"></div>
+</paper-ripple></yt-icon-button><paper-tooltip class="style-scope ytd-toggle-button-renderer" role="tooltip" tabindex="-1" style="left: 1333.76px; right: auto; bottom: auto; top: 175.4px;"><!--css-build:shady-->
+
+    <div id="tooltip" class="style-scope paper-tooltip hidden">
+      Save playlist
+    </div>
+</paper-tooltip></a></ytd-toggle-button-renderer></div>

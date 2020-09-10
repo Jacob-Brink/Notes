@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, H:/engr220/2B/Lab2_SectionB.bdf
+source_file = 1, H:/engr220/2B/Waveform.vwf
+source_file = 1, H:/engr220/2B/output_files/Chain1.cdf
+source_file = 1, H:/engr220/2B/output_files/Chain3.cdf
+source_file = 1, H:/engr220/2B/output_files/output_files/Waveform.vwf
+source_file = 1, H:/engr220/2B/output_files/output_files/output_files/Waveform.vwf
+source_file = 1, H:/engr220/2B/db/Lab2_SectionB.cbx.xml
+design_name = Lab2_SectionB
+instance = comp, \A~I , A, Lab2_SectionB, 1
+instance = comp, \B~I , B, Lab2_SectionB, 1
+instance = comp, \C~I , C, Lab2_SectionB, 1
+instance = comp, \inst7~6 , inst7~6, Lab2_SectionB, 1
+instance = comp, \inst7~9 , inst7~9, Lab2_SectionB, 1
+instance = comp, \D~I , D, Lab2_SectionB, 1
+instance = comp, \SimpD~I , SimpD, Lab2_SectionB, 1

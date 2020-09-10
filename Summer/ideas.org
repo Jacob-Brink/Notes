@@ -1,0 +1,4 @@
+* 2020 Summer Goals
+** Learn Networking Beetjs
+** Setup VPN or Socks Proxy on linode server
+** Contribute to some project on github

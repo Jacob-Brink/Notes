@@ -1,0 +1,15 @@
+# Ostrich.rb | Defines the Owl class which inherits attributes and methods
+#   from the FlyingBird superclass.
+#
+# Begun by: Dr. Adams, for CS 214 at Calvin College.
+# Completed by: Jacob Brink
+# Date: 4/24/2020
+####################################################
+
+require './FlyingBird.rb'
+
+class Owl < FlyingBird
+  def call
+    'Whoo-hoo'
+  end
+end

@@ -1,0 +1,31 @@
+
+#+BEGIN_SRC latex :exports results :file test.png
+\LaTeX
+#+END_SRC
+
+* Block Structures
+1. Smalltalk
+   - Block construct is an object
+   - <block-object> ::= [<params><locals><expr-list>]
+   - <params>       ::= <param-list>...
+   - Block not only has local variables but also parameters
+     - [:i|i+1]value:2 --> 3
+       - 2 goes into ":i" parameter
+2. Lisp
+   - expressions in "body" is executed sequentially by default
+   - Last function's value is returned from body
+
+* Selective Execution
+1. If Statement
+2. If Else
+3. Multi-Branch Logic
+
+* Dangling Else Problem
+
+if Condition, then
+    if Condition, then
+        Stmt
+else (what if statement does this else apply to?)
+    Stmt
+
+This requires an additional set of rules called "semantic rules" to remove grammar ambiguity.

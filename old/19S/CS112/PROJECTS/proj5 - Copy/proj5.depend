@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1551905745 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj5\list.cpp
+	"List.h"
+	<iostream>
+	<stdexcept>
+	<cassert>
+	<cstdlib>
+	<sstream>
+	<fstream>
+
+1551836140 c:\users\jacob\documents\school\college\19s\cs112\projects\proj5\list.h
+	<iostream>
+
+1551811763 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj5\tester.cpp
+	"ListTester.h"
+
+1551814296 c:\users\jacob\documents\school\college\19s\cs112\projects\proj5\listtester.h
+
+1551905703 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj5\listtester.cpp
+	"ListTester.h"
+	"List.h"
+	<iostream>
+	<cassert>
+	<cstdlib>
+	<stdexcept>
+	<fstream>
+

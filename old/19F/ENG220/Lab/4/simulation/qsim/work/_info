@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\engr220\4\simulation\qsim
+vLab4BABY
+Z1 !s100 ^RDLz1:00EeV5PnUiJSjJ2
+Z2 I1Y2Y44TP?CIF0jcnE`7TX1
+Z3 VejjV>Uj7YjhRG;XaK@U?P0
+Z4 dH:\engr220\4\simulation\qsim
+Z5 w1569616598
+Z6 8Lab4BABY.vo
+Z7 FLab4BABY.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Lab4BABY.vo|
+Z10 o-work work -O0
+Z11 n@lab4@b@a@b@y
+!i10b 1
+!s85 0
+Z12 !s108 1569616599.451000
+Z13 !s107 Lab4BABY.vo|
+!s101 -O0
+vLab4BABY_vlg_check_tst
+!i10b 1
+Z14 !s100 ?0Ra=g]f>h3914Tcfl=<31
+Z15 IgAhLP@9Z5[;3nP0k?YWRj3
+Z16 V[Ab_l`6_9L3>3P3;ClKjo2
+R4
+Z17 w1569616597
+Z18 8Lab4BABY.vt
+Z19 FLab4BABY.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1569616599.654000
+Z21 !s107 Lab4BABY.vt|
+Z22 !s90 -work|work|Lab4BABY.vt|
+!s101 -O0
+R10
+Z23 n@lab4@b@a@b@y_vlg_check_tst
+vLab4BABY_vlg_sample_tst
+!i10b 1
+Z24 !s100 ?Gej4RLH8XFf6OCOzJhiN2
+Z25 Ii<NNL`2O<1ffR9M;ReYGe1
+Z26 Vjj`NgW1a738MA@4MTF1UK1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@lab4@b@a@b@y_vlg_sample_tst
+vLab4BABY_vlg_vec_tst
+!i10b 1
+!s100 8D@He[jaUe8>[AAD<8?MZ0
+Id0:^1TjMm6z0f6XRf5^QE1
+Z28 VSQOi3FU=4^R121df62g912
+R4
+R17
+R18
+R19
+Z29 L0 185
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@lab4@b@a@b@y_vlg_vec_tst

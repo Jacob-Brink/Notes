@@ -1,0 +1,42 @@
+* (Extended BNF) EBNF vs BNF
+** Differences
+1. EBNF terminals are distinguished from non-terminals by
+   - capitalizing first letter of non terminals
+   - underlining, single-quoting, or bolding terminals
+2. Parentheses may be used to denote grouping
+3. "{" and "}" are surround sybols that are repeated zero or more times
+   - no recursion
+4. "[" and "]" surround symbols that are optional
+   - No "E" productions
+
+** Examples:
+
+*** C++ block statement
+Block ::= '{' {Stmt} '}'
+
+*** C++ integer literal
+Int-Literal ::= [Sign][0x]Digit{Digit}
+
+*** More examples
+Identifier ::= FirstSymbol {ValidSymbol}
+FirstSymbol ::= Letter | _
+ValidSymbol ::= FirstSymbol | Digit
+
+While Stmt ::= while (expr) stmt
+If Stmt ::= if (expr) stmt [else stmt]
+
+* Basic Parsing Algorithm
+** steps 
+1. Push s(the starting symbol) onto a stack
+2. Get the first terminal symbol t from the input file
+3. Repeat the following steps
+   a. Pop the stack into topSymbol;
+   b. If topSymbol is a nonterminal
+      1. Choose a production p of topSymbol based on t
+      2. If p != e:
+	 push p right to left onto the stack
+
+** Example
+See Slides
+
+

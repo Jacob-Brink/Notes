@@ -1,0 +1,22 @@
+See notes on triangle of HLL and periodic table
+
+Five Programming Paradigms
+	  Imperative (write blocks of statements, e.g. Fortran, Algol, Ada, BASIC, COBOL, c)
+	  Functional (write functions, pass arguments, e.g. lisp family, ML, Haskell)
+	  Object-oriented (build objects, send them messages, e.g. Smalltalk, Java, C++, Haskell, Ada)
+	  Concurrent (building communicating processes/threads/tasks, e.g. CSP, Ocean, Java,Ada, Erlang, Scala, Chapel, Go, Julia)
+	  Logic (write inference rules or a bunch of cases (prolog, ml))
+	  
+Specifying Syntax with BNF(Backus Naur Forms)s
+
+Grammar & Syntax (specifies the word-sequence that form valid sentences)
+
+Semantics (what a sentence means)
+
+	  Context-sensitive (english)
+
+Backus-Naur Form is a tool for specifying the syntax of a high level language (HLL)
+Used by compilers to check syntax
+     	    example:
+		<identifier>	:: <first letter><valid sequence>
+		<first_letter>	:: <letter>|_ (letter or underscore)

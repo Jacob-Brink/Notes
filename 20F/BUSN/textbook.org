@@ -1,0 +1,1582 @@
+* Textbook Notes
+** Org Noter
+*** Introduction to Business
+    :PROPERTIES:
+    :NOTER_DOCUMENT: IntroductionToBusiness.pdf
+    :END:
+
+**** Skeleton
+***** Preface
+      :PROPERTIES:
+      :NOTER_PAGE: (13 . 0.073232)
+      :END:
+****** 1. About OpenStax
+       :PROPERTIES:
+       :NOTER_PAGE: (13 . 0.170455)
+       :END:
+****** 2. About OpenStax resources
+       :PROPERTIES:
+       :NOTER_PAGE: (13 . 0.330808)
+       :END:
+****** 3. About Introduction to Business
+       :PROPERTIES:
+       :NOTER_PAGE: (14 . 0.073232)
+       :END:
+****** 4. Additional resources
+       :PROPERTIES:
+       :NOTER_PAGE: (16 . 0.233586)
+       :END:
+****** 5. About the authors
+       :PROPERTIES:
+       :NOTER_PAGE: (17 . 0.073232)
+       :END:
+***** Chapter 1. Understanding Economic Systems and Business
+      :PROPERTIES:
+      :NOTER_PAGE: (21 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (21 . 0.429293)
+       :END:
+****** 1.1. The Nature of Business*
+       :PROPERTIES:
+       :NOTER_PAGE: (24 . 0.256313)
+       :END:
+****** 1.2. Understanding the Business Environment*
+       :PROPERTIES:
+       :NOTER_PAGE: (29 . 0.27904)
+       :END:
+****** 1.3. How Business and Economics Work*
+       :PROPERTIES:
+       :NOTER_PAGE: (33 . 0.838384)
+       :END:
+****** 1.4. Macroeconomics: The Big Picture*
+       :PROPERTIES:
+       :NOTER_PAGE: (40 . 0.647727)
+       :END:
+****** 1.5. Achieving Macroeconomic Goals*
+       :PROPERTIES:
+       :NOTER_PAGE: (45 . 0.705808)
+       :END:
+****** 1.6. Microeconomics: Zeroing in on Businesses and Consumers*
+       :PROPERTIES:
+       :NOTER_PAGE: (49 . 0.478535)
+       :END:
+****** 1.7. Competing in a Free Market*
+       :PROPERTIES:
+       :NOTER_PAGE: (55 . 0.363636)
+       :END:
+****** 1.8. Trends in the Business Environment and Competition*
+       :PROPERTIES:
+       :NOTER_PAGE: (58 . 0.262626)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (62 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (64 . 0.256313)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (64 . 0.260101)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (66 . 0.549242)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (66 . 0.551768)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (67 . 0.276515)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (67 . 0.27904)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (68 . 0.087121)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (68 . 0.090909)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (68 . 0.560606)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (68 . 0.564394)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (69 . 0.607323)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (69 . 0.611111)
+       :END:
+***** Chapter 2. Making Ethical Decisions and Managing a Socially Responsible Business
+      :PROPERTIES:
+      :NOTER_PAGE: (71 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (71 . 0.429293)
+       :END:
+****** 2.1. Understanding Business Ethics*
+       :PROPERTIES:
+       :NOTER_PAGE: (73 . 0.508838)
+       :END:
+****** 2.2. How Organizations Influence Ethical Conduct*
+       :PROPERTIES:
+       :NOTER_PAGE: (76 . 0.679293)
+       :END:
+******* Ethics matters because public reputation matters
+	:PROPERTIES:
+	:NOTER_PAGE: 77
+	:END:
+******* A code of ethics provides employees with the knowledge of what their firm expects in terms of their responsibilities and behaviour toward fellow employees
+	:PROPERTIES:
+	:NOTER_PAGE: 78
+	:END:
+
+****** 2.3. Managing a Socially Responsible Business*
+       :PROPERTIES:
+       :NOTER_PAGE: (81 . 0.786616)
+       :END:
+****** 2.4. Responsibilities to Stakeholders*
+       :PROPERTIES:
+       :NOTER_PAGE: (85 . 0.647727)
+       :END:
+****** 2.5. Trends in Ethics and Corporate Social Responsibility*
+       :PROPERTIES:
+       :NOTER_PAGE: (90 . 0.243687)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (92 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (92 . 0.566919)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (92 . 0.570707)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (93 . 0.59596)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (93 . 0.599747)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (94 . 0.239899)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (94 . 0.243687)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (95 . 0.256313)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (95 . 0.260101)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (95 . 0.747475)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (95 . 0.751263)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (97 . 0.087121)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (97 . 0.090909)
+       :END:
+***** Chapter 3. Competing in the Global Marketplace
+      :PROPERTIES:
+      :NOTER_PAGE: (99 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (99 . 0.429293)
+       :END:
+****** 3.1. Global Trade in the United States*
+       :PROPERTIES:
+       :NOTER_PAGE: (101 . 0.508838)
+       :END:
+****** 3.2. Why Nations Trade*
+       :PROPERTIES:
+       :NOTER_PAGE: (105 . 0.166667)
+       :END:
+****** 3.3. Barriers to Trade*
+       :PROPERTIES:
+       :NOTER_PAGE: (107 . 0.630051)
+       :END:
+****** 3.4. Fostering Global Trade*
+       :PROPERTIES:
+       :NOTER_PAGE: (109 . 0.563131)
+       :END:
+****** 3.5. International Economic Communities*
+       :PROPERTIES:
+       :NOTER_PAGE: (112 . 0.496212)
+       :END:
+****** 3.6. Participating in the Global Marketplace*
+       :PROPERTIES:
+       :NOTER_PAGE: (117 . 0.786616)
+       :END:
+****** 3.7. Threats and Opportunities in the Global Marketplace*
+       :PROPERTIES:
+       :NOTER_PAGE: (122 . 0.55303)
+       :END:
+****** 3.8. The Impact of Multinational Corporations*
+       :PROPERTIES:
+       :NOTER_PAGE: (126 . 0.598485)
+       :END:
+****** 3.9. Trends in Global Competition*
+       :PROPERTIES:
+       :NOTER_PAGE: (130 . 0.808081)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (134 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (135 . 0.565657)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (135 . 0.569444)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.239899)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.243687)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.530303)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.534091)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.881313)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (137 . 0.883838)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (138 . 0.530303)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (138 . 0.534091)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (139 . 0.55303)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (139 . 0.556818)
+       :END:
+***** Chapter 4. Forms of Business Ownership
+      :PROPERTIES:
+      :NOTER_PAGE: (141 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (141 . 0.429293)
+       :END:
+****** 4.1. Going It Alone: Sole Proprietorships*
+       :PROPERTIES:
+       :NOTER_PAGE: (143 . 0.316919)
+       :END:
+****** 4.2. Partnerships: Sharing the Load*
+       :PROPERTIES:
+       :NOTER_PAGE: (146 . 0.305556)
+       :END:
+****** 4.3. Corporations: Limiting Your Liability*
+       :PROPERTIES:
+       :NOTER_PAGE: (149 . 0.376263)
+       :END:
+****** 4.4. Specialized Forms of Business Organization*
+       :PROPERTIES:
+       :NOTER_PAGE: (157 . 0.746212)
+       :END:
+****** 4.5. Franchising: A Popular Trend*
+       :PROPERTIES:
+       :NOTER_PAGE: (159 . 0.556818)
+       :END:
+****** 4.6. Mergers and Acquisitions*
+       :PROPERTIES:
+       :NOTER_PAGE: (167 . 0.467172)
+       :END:
+****** 4.7. Trends in Business Ownership*
+       :PROPERTIES:
+       :NOTER_PAGE: (170 . 0.27904)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (173 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (174 . 0.256313)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (174 . 0.260101)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (176 . 0.087121)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (176 . 0.090909)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (177 . 0.257576)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (177 . 0.261364)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (177 . 0.813131)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (177 . 0.816919)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (178 . 0.458333)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (178 . 0.460859)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (179 . 0.57197)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (179 . 0.574495)
+       :END:
+***** Chapter 5. Entrepreneurship: Starting and Managing Your Own Business
+      :PROPERTIES:
+      :NOTER_PAGE: (181 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (181 . 0.429293)
+       :END:
+****** 5.1. Entrepreneurship Today*
+       :PROPERTIES:
+       :NOTER_PAGE: (183 . 0.232323)
+       :END:
+****** 5.2. Characteristics of Successful Entrepreneurs*
+       :PROPERTIES:
+       :NOTER_PAGE: (189 . 0.333333)
+       :END:
+****** 5.3. Small Business: Driving America's Growth*
+       :PROPERTIES:
+       :NOTER_PAGE: (193 . 0.22601)
+       :END:
+****** 5.4. Ready, Set, Start Your Own Business*
+       :PROPERTIES:
+       :NOTER_PAGE: (196 . 0.176768)
+       :END:
+****** 5.5. Managing a Small Business*
+       :PROPERTIES:
+       :NOTER_PAGE: (205 . 0.243687)
+       :END:
+****** 5.6. Small Business, Large Impact*
+       :PROPERTIES:
+       :NOTER_PAGE: (208 . 0.369949)
+       :END:
+****** 5.7. The Small Business Administration*
+       :PROPERTIES:
+       :NOTER_PAGE: (209 . 0.853535)
+       :END:
+****** 5.8. Trends in Entrepreneurship and Small-Business Ownership*
+       :PROPERTIES:
+       :NOTER_PAGE: (211 . 0.296717)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (215 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (215 . 0.566919)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (215 . 0.570707)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (217 . 0.087121)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (217 . 0.090909)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (218 . 0.190657)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (218 . 0.194444)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (218 . 0.522727)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (218 . 0.526515)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (219 . 0.087121)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (219 . 0.090909)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (220 . 0.20202)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (220 . 0.205808)
+       :END:
+***** Chapter 6. Management and Leadership in Today's Organizations
+      :PROPERTIES:
+      :NOTER_PAGE: (221 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (221 . 0.429293)
+       :END:
+****** 6.1. The Role of Management*
+       :PROPERTIES:
+       :NOTER_PAGE: (223 . 0.106061)
+       :END:
+****** 6.2. Planning*
+       :PROPERTIES:
+       :NOTER_PAGE: (225 . 0.643939)
+       :END:
+****** 6.3. Organizing*
+       :PROPERTIES:
+       :NOTER_PAGE: (231 . 0.073232)
+       :END:
+****** 6.4. Leading, Guiding, and Motivating Others*
+       :PROPERTIES:
+       :NOTER_PAGE: (232 . 0.796717)
+       :END:
+****** 6.5. Controlling*
+       :PROPERTIES:
+       :NOTER_PAGE: (239 . 0.14899)
+       :END:
+****** 6.6. Managerial Roles*
+       :PROPERTIES:
+       :NOTER_PAGE: (240 . 0.40404)
+       :END:
+****** 6.7. Managerial Skills*
+       :PROPERTIES:
+       :NOTER_PAGE: (243 . 0.704545)
+       :END:
+****** 6.8. Trends in Management and Leadership*
+       :PROPERTIES:
+       :NOTER_PAGE: (245 . 0.359848)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (251 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (252 . 0.602273)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (252 . 0.606061)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (254 . 0.166667)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (254 . 0.170455)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (254 . 0.676768)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (254 . 0.679293)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (255 . 0.457071)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (255 . 0.459596)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (256 . 0.087121)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (256 . 0.090909)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (257 . 0.20202)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (257 . 0.205808)
+       :END:
+***** Chapter 7. Designing Organizational Structures
+      :PROPERTIES:
+      :NOTER_PAGE: (259 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (259 . 0.429293)
+       :END:
+****** 7.1. Building Organizational Structures*
+       :PROPERTIES:
+       :NOTER_PAGE: (261 . 0.732323)
+       :END:
+****** 7.2. Contemporary Structures*
+       :PROPERTIES:
+       :NOTER_PAGE: (267 . 0.862374)
+       :END:
+****** 7.3. Using Teams to Enhance Motivation and Performance*
+       :PROPERTIES:
+       :NOTER_PAGE: (270 . 0.073232)
+       :END:
+****** 7.4. Authority—Establishing Organizational Relationships*
+       :PROPERTIES:
+       :NOTER_PAGE: (274 . 0.166667)
+       :END:
+****** 7.5. Degree of Centralization*
+       :PROPERTIES:
+       :NOTER_PAGE: (276 . 0.369949)
+       :END:
+****** 7.6. Organizational Design Considerations*
+       :PROPERTIES:
+       :NOTER_PAGE: (277 . 0.488636)
+       :END:
+****** 7.7. The Informal Organization*
+       :PROPERTIES:
+       :NOTER_PAGE: (282 . 0.578283)
+       :END:
+****** 7.8. Trends in Organizational Structure*
+       :PROPERTIES:
+       :NOTER_PAGE: (284 . 0.585859)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (289 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (290 . 0.52904)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (290 . 0.532828)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (292 . 0.626263)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (292 . 0.630051)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (293 . 0.330808)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (293 . 0.334596)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (294 . 0.087121)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (294 . 0.090909)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (294 . 0.77904)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (294 . 0.781566)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (295 . 0.880051)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (295 . 0.882576)
+       :END:
+***** Chapter 8. Managing Human Resources and Labor Relations
+      :PROPERTIES:
+      :NOTER_PAGE: (297 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (297 . 0.429293)
+       :END:
+****** 8.1. Achieving High Performance through Human Resources Management*
+       :PROPERTIES:
+       :NOTER_PAGE: (299 . 0.540404)
+       :END:
+****** 8.2. Employee Recruitment*
+       :PROPERTIES:
+       :NOTER_PAGE: (304 . 0.243687)
+       :END:
+****** 8.3. Employee Selection*
+       :PROPERTIES:
+       :NOTER_PAGE: (306 . 0.626263)
+       :END:
+****** 8.4. Employee Training and Development*
+       :PROPERTIES:
+       :NOTER_PAGE: (310 . 0.352273)
+       :END:
+****** 8.5. Performance Planning and Evaluation*
+       :PROPERTIES:
+       :NOTER_PAGE: (314 . 0.467172)
+       :END:
+****** 8.6. Employee Compensation and Benefits*
+       :PROPERTIES:
+       :NOTER_PAGE: (316 . 0.805556)
+       :END:
+****** 8.7. The Labor Relations Process*
+       :PROPERTIES:
+       :NOTER_PAGE: (320 . 0.176768)
+       :END:
+****** 8.8. Managing Grievances and Conflicts*
+       :PROPERTIES:
+       :NOTER_PAGE: (326 . 0.243687)
+       :END:
+****** 8.9. Legal Environment of Human Resources and Labor Relations*
+       :PROPERTIES:
+       :NOTER_PAGE: (329 . 0.733586)
+       :END:
+****** 8.10. Trends in Human Resource Management and Labor Relations*
+       :PROPERTIES:
+       :NOTER_PAGE: (333 . 0.670455)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (337 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (338 . 0.438131)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (338 . 0.441919)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (341 . 0.087121)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (341 . 0.090909)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (341 . 0.875)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (341 . 0.878788)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (342 . 0.728535)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (342 . 0.732323)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (343 . 0.621212)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (343 . 0.625)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (344 . 0.835859)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (344 . 0.839646)
+       :END:
+***** Chapter 9. Motivating Employees
+      :PROPERTIES:
+      :NOTER_PAGE: (347 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (347 . 0.429293)
+       :END:
+****** 9.1. Early Theories of Motivation*
+       :PROPERTIES:
+       :NOTER_PAGE: (349 . 0.613636)
+       :END:
+****** 9.2. The Hawthorne Studies*
+       :PROPERTIES:
+       :NOTER_PAGE: (351 . 0.502525)
+       :END:
+****** 9.3. Maslow's Hierarchy of Needs*
+       :PROPERTIES:
+       :NOTER_PAGE: (352 . 0.308081)
+       :END:
+****** 9.4. McGregor's Theories X and Y*
+       :PROPERTIES:
+       :NOTER_PAGE: (354 . 0.683081)
+       :END:
+****** 9.5. Herzberg's Motivator-Hygiene Theory*
+       :PROPERTIES:
+       :NOTER_PAGE: (357 . 0.483586)
+       :END:
+****** 9.6. Contemporary Views on Motivation*
+       :PROPERTIES:
+       :NOTER_PAGE: (359 . 0.395202)
+       :END:
+****** 9.7. From Motivation Theory to Application*
+       :PROPERTIES:
+       :NOTER_PAGE: (363 . 0.718434)
+       :END:
+****** 9.8. Trends in Employee Motivation*
+       :PROPERTIES:
+       :NOTER_PAGE: (367 . 0.708333)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (375 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (376 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (376 . 0.090909)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (377 . 0.857323)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (377 . 0.861111)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (378 . 0.367424)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (378 . 0.369949)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (378 . 0.753788)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (378 . 0.756313)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (379 . 0.458333)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (379 . 0.460859)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (380 . 0.613636)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (380 . 0.617424)
+       :END:
+***** Chapter 10. Achieving World-Class Operations Management
+      :PROPERTIES:
+      :NOTER_PAGE: (381 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (381 . 0.429293)
+       :END:
+****** 10.1. Production and Operations Management—An Overview*
+       :PROPERTIES:
+       :NOTER_PAGE: (383 . 0.550505)
+       :END:
+****** 10.2. The Production Process: How Do We Make It?*
+       :PROPERTIES:
+       :NOTER_PAGE: (387 . 0.253788)
+       :END:
+****** 10.3. Location, Location, Location: Where Do We Make It?*
+       :PROPERTIES:
+       :NOTER_PAGE: (390 . 0.22601)
+       :END:
+****** 10.4. Pulling It Together: Resource Planning*
+       :PROPERTIES:
+       :NOTER_PAGE: (394 . 0.85101)
+       :END:
+****** 10.5. Production and Operations Control*
+       :PROPERTIES:
+       :NOTER_PAGE: (401 . 0.22601)
+       :END:
+****** 10.6. Looking for a Better Way: Improving Production and Operations*
+       :PROPERTIES:
+       :NOTER_PAGE: (404 . 0.32702)
+       :END:
+****** 10.7. Transforming the Factory Floor with Technology*
+       :PROPERTIES:
+       :NOTER_PAGE: (406 . 0.700758)
+       :END:
+****** 10.8. Trends in Production and Operations Management*
+       :PROPERTIES:
+       :NOTER_PAGE: (410 . 0.073232)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (413 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (415 . 0.420455)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (415 . 0.424242)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (417 . 0.22096)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (417 . 0.224747)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (418 . 0.482323)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (418 . 0.484848)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (419 . 0.166667)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (419 . 0.170455)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (419 . 0.585859)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (419 . 0.588384)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (420 . 0.875)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (420 . 0.878788)
+       :END:
+***** Chapter 11. Creating Products and Pricing Strategies to Meet Customers' Needs
+      :PROPERTIES:
+      :NOTER_PAGE: (423 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (423 . 0.429293)
+       :END:
+****** 11.1. The Marketing Concept*
+       :PROPERTIES:
+       :NOTER_PAGE: (424 . 0.775253)
+       :END:
+****** 11.2. Creating a Marketing Strategy*
+       :PROPERTIES:
+       :NOTER_PAGE: (427 . 0.643939)
+       :END:
+****** 11.3. Developing a Marketing Mix*
+       :PROPERTIES:
+       :NOTER_PAGE: (431 . 0.772727)
+       :END:
+****** 11.4. Buyer Behavior*
+       :PROPERTIES:
+       :NOTER_PAGE: (435 . 0.541667)
+       :END:
+****** 11.5. Market Segmentation*
+       :PROPERTIES:
+       :NOTER_PAGE: (439 . 0.628788)
+       :END:
+****** 11.6. What Is a Product?*
+       :PROPERTIES:
+       :NOTER_PAGE: (445 . 0.262626)
+       :END:
+****** 11.7. Creating Products That Deliver Value*
+       :PROPERTIES:
+       :NOTER_PAGE: (449 . 0.679293)
+       :END:
+****** 11.8. The Product Life Cycle*
+       :PROPERTIES:
+       :NOTER_PAGE: (453 . 0.424242)
+       :END:
+****** 11.9. Pricing Strategies and Future Trends*
+       :PROPERTIES:
+       :NOTER_PAGE: (456 . 0.643939)
+       :END:
+****** 11.10. Trends in Developing Products and Pricing*
+       :PROPERTIES:
+       :NOTER_PAGE: (460 . 0.417929)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (463 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (465 . 0.292929)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (465 . 0.296717)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (467 . 0.512626)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (467 . 0.516414)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (468 . 0.22096)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (468 . 0.224747)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (468 . 0.886364)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (468 . 0.890152)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (469 . 0.603535)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (469 . 0.607323)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (470 . 0.493687)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (470 . 0.496212)
+       :END:
+***** Chapter 12. Distributing and Promoting Products and Services
+      :PROPERTIES:
+      :NOTER_PAGE: (471 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (471 . 0.429293)
+       :END:
+****** 12.1. The Nature and Functions of Distribution (Place)*
+       :PROPERTIES:
+       :NOTER_PAGE: (473 . 0.160354)
+       :END:
+****** 12.2. Wholesaling*
+       :PROPERTIES:
+       :NOTER_PAGE: (478 . 0.507576)
+       :END:
+****** 12.3. The Competitive World of Retailing*
+       :PROPERTIES:
+       :NOTER_PAGE: (480 . 0.308081)
+       :END:
+****** 12.4. Using Supply Chain Management to Increase Efficiency and Customer Satisfaction*
+       :PROPERTIES:
+       :NOTER_PAGE: (485 . 0.22601)
+       :END:
+****** 12.5. Promotion Strategy*
+       :PROPERTIES:
+       :NOTER_PAGE: (486 . 0.271465)
+       :END:
+****** 12.6. The Huge Impact of Advertising*
+       :PROPERTIES:
+       :NOTER_PAGE: (490 . 0.073232)
+       :END:
+****** 12.7. The Importance of Personal Selling*
+       :PROPERTIES:
+       :NOTER_PAGE: (492 . 0.416667)
+       :END:
+****** 12.8. Sales Promotion*
+       :PROPERTIES:
+       :NOTER_PAGE: (495 . 0.22601)
+       :END:
+****** 12.9. Public Relations Helps Build Goodwill*
+       :PROPERTIES:
+       :NOTER_PAGE: (500 . 0.199495)
+       :END:
+****** 12.10. Trends in Social Media*
+       :PROPERTIES:
+       :NOTER_PAGE: (501 . 0.54798)
+       :END:
+****** 12.11. Trends in E-Commerce*
+       :PROPERTIES:
+       :NOTER_PAGE: (503 . 0.315657)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (505 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (506 . 0.256313)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (506 . 0.260101)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (508 . 0.645202)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (508 . 0.64899)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (509 . 0.439394)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (509 . 0.443182)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (510 . 0.087121)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (510 . 0.090909)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (510 . 0.723485)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (510 . 0.727273)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (511 . 0.771465)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (511 . 0.775253)
+       :END:
+***** Chapter 13. Using Technology to Manage Information
+      :PROPERTIES:
+      :NOTER_PAGE: (513 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (513 . 0.429293)
+       :END:
+****** 13.1. Transforming Businesses through Information*
+       :PROPERTIES:
+       :NOTER_PAGE: (514 . 0.491162)
+       :END:
+****** 13.2. Linking Up: Computer Networks*
+       :PROPERTIES:
+       :NOTER_PAGE: (519 . 0.853535)
+       :END:
+****** 13.3. Management Information Systems*
+       :PROPERTIES:
+       :NOTER_PAGE: (526 . 0.714646)
+       :END:
+****** 13.4. Technology Management and Planning*
+       :PROPERTIES:
+       :NOTER_PAGE: (531 . 0.406566)
+       :END:
+****** 13.5. Protecting Computers and Information*
+       :PROPERTIES:
+       :NOTER_PAGE: (533 . 0.838384)
+       :END:
+****** 13.6. Trends in Information Technology*
+       :PROPERTIES:
+       :NOTER_PAGE: (539 . 0.467172)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (544 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (545 . 0.275253)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (545 . 0.277778)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (546 . 0.664141)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (546 . 0.666667)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (547 . 0.385101)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (547 . 0.388889)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (547 . 0.825758)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (547 . 0.829545)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (548 . 0.458333)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (548 . 0.460859)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (549 . 0.522727)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (549 . 0.526515)
+       :END:
+***** Chapter 14. Using Financial Information and Accounting
+      :PROPERTIES:
+      :NOTER_PAGE: (551 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (551 . 0.429293)
+       :END:
+****** 14.1. Accounting: More than Numbers*
+       :PROPERTIES:
+       :NOTER_PAGE: (553 . 0.106061)
+       :END:
+****** 14.2. The Accounting Profession*
+       :PROPERTIES:
+       :NOTER_PAGE: (558 . 0.073232)
+       :END:
+****** 14.3. Basic Accounting Procedures*
+       :PROPERTIES:
+       :NOTER_PAGE: (561 . 0.484848)
+       :END:
+****** 14.4. The Balance Sheet*
+       :PROPERTIES:
+       :NOTER_PAGE: (566 . 0.243687)
+       :END:
+****** 14.5. The Income Statement*
+       :PROPERTIES:
+       :NOTER_PAGE: (569 . 0.414141)
+       :END:
+****** 14.6. The Statement of Cash Flows*
+       :PROPERTIES:
+       :NOTER_PAGE: (572 . 0.479798)
+       :END:
+****** 14.7. Analyzing Financial Statements*
+       :PROPERTIES:
+       :NOTER_PAGE: (574 . 0.835859)
+       :END:
+****** 14.8. Trends in Accounting*
+       :PROPERTIES:
+       :NOTER_PAGE: (579 . 0.612374)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (583 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (584 . 0.838384)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (584 . 0.842172)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (586 . 0.493687)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (586 . 0.497475)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (589 . 0.244949)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (589 . 0.248737)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (589 . 0.746212)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (589 . 0.75)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (590 . 0.257576)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (590 . 0.261364)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (591 . 0.238636)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (591 . 0.242424)
+       :END:
+***** Chapter 15. Understanding Money and Financial Institutions
+      :PROPERTIES:
+      :NOTER_PAGE: (593 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (593 . 0.429293)
+       :END:
+****** 15.1. Show Me the Money*
+       :PROPERTIES:
+       :NOTER_PAGE: (595 . 0.690657)
+       :END:
+****** 15.2. The Federal Reserve System*
+       :PROPERTIES:
+       :NOTER_PAGE: (599 . 0.333333)
+       :END:
+****** 15.3. U.S. Financial Institutions*
+       :PROPERTIES:
+       :NOTER_PAGE: (604 . 0.77399)
+       :END:
+****** 15.4. Insuring Bank Deposits*
+       :PROPERTIES:
+       :NOTER_PAGE: (613 . 0.47601)
+       :END:
+****** 15.5. International Banking*
+       :PROPERTIES:
+       :NOTER_PAGE: (615 . 0.073232)
+       :END:
+****** 15.6. Trends in Financial Institutions*
+       :PROPERTIES:
+       :NOTER_PAGE: (616 . 0.556818)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (620 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (620 . 0.712121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (620 . 0.715909)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (621 . 0.888889)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (621 . 0.891414)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (623 . 0.087121)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (623 . 0.090909)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (623 . 0.588384)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (623 . 0.592172)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (624 . 0.257576)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (624 . 0.261364)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (625 . 0.516414)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (625 . 0.520202)
+       :END:
+***** Chapter 16. Understanding Financial Management and Securities Markets
+      :PROPERTIES:
+      :NOTER_PAGE: (627 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (627 . 0.429293)
+       :END:
+****** 16.1. The Role of Finance and the Financial Manager*
+       :PROPERTIES:
+       :NOTER_PAGE: (629 . 0.238636)
+       :END:
+****** 16.2. How Organizations Use Funds*
+       :PROPERTIES:
+       :NOTER_PAGE: (631 . 0.599747)
+       :END:
+****** 16.3. Obtaining Short-Term Financing*
+       :PROPERTIES:
+       :NOTER_PAGE: (634 . 0.713384)
+       :END:
+****** 16.4. Raising Long-Term Financing*
+       :PROPERTIES:
+       :NOTER_PAGE: (636 . 0.691919)
+       :END:
+****** 16.5. Equity Financing*
+       :PROPERTIES:
+       :NOTER_PAGE: (638 . 0.77399)
+       :END:
+****** 16.6. Securities Markets*
+       :PROPERTIES:
+       :NOTER_PAGE: (642 . 0.166667)
+       :END:
+****** 16.7. Buying and Selling at Securities Exchanges*
+       :PROPERTIES:
+       :NOTER_PAGE: (648 . 0.532828)
+       :END:
+****** 16.8. Trends in Financial Management and Securities Markets*
+       :PROPERTIES:
+       :NOTER_PAGE: (655 . 0.570707)
+       :END:
+****** Glossary
+       :PROPERTIES:
+       :NOTER_PAGE: (657 . 0.087121)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (658 . 0.747475)
+       :END:
+****** Summary of Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (658 . 0.751263)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (660 . 0.796717)
+       :END:
+****** Preparing for Tomorrow's Workplace Skills
+       :PROPERTIES:
+       :NOTER_PAGE: (660 . 0.800505)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (661 . 0.603535)
+       :END:
+****** Ethics Activity
+       :PROPERTIES:
+       :NOTER_PAGE: (661 . 0.607323)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (662 . 0.300505)
+       :END:
+****** Working the Net
+       :PROPERTIES:
+       :NOTER_PAGE: (662 . 0.30303)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (662 . 0.881313)
+       :END:
+****** Critical Thinking Case
+       :PROPERTIES:
+       :NOTER_PAGE: (662 . 0.885101)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (664 . 0.54798)
+       :END:
+****** Hot Links Address Book
+       :PROPERTIES:
+       :NOTER_PAGE: (664 . 0.550505)
+       :END:
+***** Chapter 17. Your Career in Business
+      :PROPERTIES:
+      :NOTER_PAGE: (667 . 0.061869)
+      :END:
+****** Introduction*
+       :PROPERTIES:
+       :NOTER_PAGE: (667 . 0.429293)
+       :END:
+****** 17.1. Learn the Basics of Business*
+       :PROPERTIES:
+       :NOTER_PAGE: (668 . 0.20202)
+       :END:
+****** 17.2. Developing Interpersonal Skills Is Key to Your Success*
+       :PROPERTIES:
+       :NOTER_PAGE: (669 . 0.176768)
+       :END:
+****** 17.3. Make Your Future Happen: Learn to Plan*
+       :PROPERTIES:
+       :NOTER_PAGE: (673 . 0.603535)
+       :END:
+****** 17.4. Going to College Is an Opportunity of a Lifetime—Never Drop Out*
+       :PROPERTIES:
+       :NOTER_PAGE: (676 . 0.752525)
+       :END:
+****** 17.5. Get Your Career Off on the Right Track*
+       :PROPERTIES:
+       :NOTER_PAGE: (683 . 0.515152)
+       :END:
+****** 17.6. Self-Test Scoring Guidelines*
+       :PROPERTIES:
+       :NOTER_PAGE: (693 . 0.305556)
+       :END:
+***** Appendix A. Understanding the Legal and Tax Environment*
+      :PROPERTIES:
+      :NOTER_PAGE: (697 . 0.073232)
+      :END:
+****** A.1. Learning Outcomes
+       :PROPERTIES:
+       :NOTER_PAGE: (697 . 0.125)
+       :END:
+****** A.2. Understanding the Legal Environment
+       :PROPERTIES:
+       :NOTER_PAGE: (697 . 0.252525)
+       :END:
+****** A.3. Contract Law
+       :PROPERTIES:
+       :NOTER_PAGE: (700 . 0.22096)
+       :END:
+****** A.4. Understanding the Tax Environment of Business
+       :PROPERTIES:
+       :NOTER_PAGE: (709 . 0.073232)
+       :END:
+***** References
+      :PROPERTIES:
+      :NOTER_PAGE: (711 . 0.073232)
+      :END:
+***** Index
+      :PROPERTIES:
+      :NOTER_PAGE: (733 . 0.073232)
+      :END:
+***** Index
+      :PROPERTIES:
+      :NOTER_PAGE: (733 . 0.073232)
+      :END:
+***** Blank Page
+      :PROPERTIES:
+      :NOTER_PAGE: 2
+      :END:
+

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, H:/engr220/2/Lab2_Quartus.bdf
+source_file = 1, H:/engr220/2/Waveform.vwf
+source_file = 1, H:/engr220/2/output_files/Chain2.cdf
+source_file = 1, H:/engr220/2/db/Lab2_Quartus.cbx.xml
+design_name = Lab2_Quartus
+instance = comp, \pin_name1~I , pin_name1, Lab2_Quartus, 1
+instance = comp, \pin_name1~1 , pin_name1~1, Lab2_Quartus, 1
+instance = comp, \pin_name2~I , pin_name2, Lab2_Quartus, 1

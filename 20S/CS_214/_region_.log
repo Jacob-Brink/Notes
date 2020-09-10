@@ -1,0 +1,113 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=prv_BlockStructures 2020.9.6)  6 SEP 2020 21:37
+entering extended mode
+**&prv_BlockStructures /AUCTEXINPUT{ _region_.tex }
+(_region_.tex
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box45
+)
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\preview.sty
+Package: preview 2017/04/24 12.2 (AUCTeX/preview-latex)
+
+("C:\Program Files\MiKTeX\tex/generic/luatex85\luatex85.sty"
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prtightpage.def
+\PreviewBorder=\dimen144
+)
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count180
+\hfuzz=\dimen145
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prauctex.cfg))
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prfootnotes.def)
+\pr@snippet=\count181
+\pr@box=\box46
+\pr@output=\toks23
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+)  !name(BlockStructures.tex) !offset(13) 
+_region_.tex:7: Preview: Snippet 1 started.
+<-><->
+      
+l.7 \subsection
+               *{How to handle topicalization}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+_region_.tex:7: Preview: Snippet 1 ended.(655359+183500x25559040).
+<-><->
+      
+l.7 \subsection*{How to handle topicalization}
+                                              
+Not a real error.
+
+[1{C:/Users/jacob/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+_region_.tex:22: Preview: Snippet 2 started.
+<-><->
+      
+l.22 }
+      
+Not a real error.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 22.
+_region_.tex:22: Preview: Snippet 2 ended.(551690+0x183865).
+<-><->
+      
+l.22 }
+      
+Not a real error.
+
+[2]
+_region_.tex:22: Preview: Snippet 3 started.
+<-><->
+      
+l.22 }
+      
+Not a real error.
+
+_region_.tex:22: Preview: Snippet 3 ended.(551690+0x183865).
+<-><->
+      
+l.22 }
+      
+Not a real error.
+
+[3]  !name(BlockStructures.tex) !offset(19)  ) 
+Here is how much of TeX's memory you used:
+ 337 strings out of 480408
+ 6642 string characters out of 2902332
+ 244614 words of memory out of 3000000
+ 16759 multiletter control sequences out of 15000+200000
+ 538084 words of font info for 43 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,11n,29p,191b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb>
+Output written on _region_.pdf (3 pages, 19208 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

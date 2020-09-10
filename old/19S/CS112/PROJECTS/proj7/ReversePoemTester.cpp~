@@ -1,0 +1,54 @@
+/* ReversePoemTester class.
+ * Student Name: Jacob Brink
+ * Date: 3/26/2019
+ * Project: 7
+ */
+
+#include "ReversePoemTester.h"
+
+void ReversePoemTester::runTests() {
+	testConstructor();
+	testTitle();
+	testAuthor();
+	testBody();
+	testBodyReversed();
+}
+
+void ReversePoemTester::testConstructor() {
+	cout << "Testing ReversePoem constructor... " << flush;
+	ReversePoem p("poems/cats.txt");
+	cout << " 0 " << flush;
+	cout << " Passed!" << endl;
+}
+
+void ReversePoemTester::testTitle() {
+	cout << "Testing getTitle()... " << flush;
+	ReversePoem p("poems/cats.txt");
+	assert(p.getTitle() == "Cats");
+	cout << " 0 " << flush;
+
+	ReversePoem p2("poems/worstDayEver.txt");
+	assert(p.getTitle() == "Worst Day Ever?");
+	cout << " 1 " << flush;
+	cout << " Passed!" << endl;
+}
+
+void ReversePoemTester::testAuthor() {
+	cout << "Testing getAuthor()... " << flush;
+	ReversePoem p1("poems/cats.txt");
+	assert(p1.getAuthor() == "Leo J. Smada");
+	cout << " 0 " << flush;
+	
+	ReversePoem p2("poems/worstDayEver.txt");
+	assert(p2.getAuthor() == "Chanie Gorkin");
+	cout << " 1 " << flush;
+	cout << " Passed!" << endl;
+}
+
+void ReversePoemTester::testBody() {
+	cout << "Testing getBody()... " << flush;
+	ReversePoem p1("poems/cats.txt");
+    
+	ifstream fin("poems/cats.txt");
+	assert( fin.is_open() );
+	

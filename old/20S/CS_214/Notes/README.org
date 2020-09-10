@@ -1,0 +1,5 @@
+* CS 214
+* Links
+** [[https://cs.calvin.edu/courses/cs/214/adams/pdfs/][CS 214 Presentation Slides]]
+** [[https://cs.calvin.edu/courses/cs/214/adams/][Course Page]]
+

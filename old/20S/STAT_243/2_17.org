@@ -1,0 +1,15 @@
+#+STARTUP: indent
+* Probability Distribution
+Function that tells how often you'd expect to see possible values at a random variable
+** Types
+1. Discrete
+   - variable takes on discrete set of possible values
+   - Finding the probability of what value you roll on a die
+   - graph should tell you possible values for x and probability on y
+2. Continuous
+   - Plotted in terms of variable of possible values on x axis and "probability density" on y axis
+     - the reason it is probability density and not probability is because with infinite values, a plot of probability would show a flat line on the y=0
+   - Graphing
+     - density plot
+     - density histogram
+     - (total area under curve must be 1 of a probability density graph)

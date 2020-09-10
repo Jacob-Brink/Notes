@@ -1,0 +1,18 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @basic(b) feature(f) }
+#+STARTUP: indent
+
+* TODO Fix stop event not overwriting update stop event
+** TODO Have two logs, one that is start and stop, the other is players online before crash
+** TODO when server crashes, the server starting up on enable must look through players online before crash file
+** TODO caveat: plugins are disabled before players leave, so it might look like a crash when it shouldn't be if i rely on playersquit event when server is shut down. Therefore, onDisable I need to check all online players and call stop on them.
+** TODO crash_save.yml
+*** TODO Contains the following
+**** TODO Updated TimeStamp every X seconds
+**** TODO List of Players active currently
+*** TODO Methods
+**** TODO onEnable(): Get All Players in file and recover stop data for them. && clear()
+**** TODO onDisable(): clear()
+**** TODO clear(): remove players from file
+* STARTED Fix loading that erases data from yaml config
+** STARTED [#A] believe it is that i run auto save and load in different threads. probably saving before loaded?

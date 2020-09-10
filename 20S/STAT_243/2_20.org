@@ -1,0 +1,9 @@
+#+STARTUP: indent
+* Fitting Distribution to Data
+** Steps
+1. Finding the mean OR expected value OR E(x) of a PDF
+   1. Motivation: Computing averages
+   2. Discrete Mean = Summation of (Value * Value's Probability)
+   3. Continuous Mean = Integral of X*f(x)
+   4. Variance = (Standard Deviation)^2
+   5. Variance(x) = E((x-mew)^2) = E(x^2)-[E(x)]^2Do not use for calculation of variance

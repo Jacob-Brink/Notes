@@ -1,0 +1,13 @@
+|Lab4BABY
+Unit1LED <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+CLEAR => inst99.ACLR
+CLEAR => inst8.ACLR
+TICKTOCGOETHCLOCk => inst99.CLK
+TICKTOCGOETHCLOCk => inst8.CLK
+In1 => inst2.IN0
+In1 => inst4444.IN0
+In0 => inst1.IN1
+In0 => inst3.IN0
+Unit0LED <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,35 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @basic(b) feature(f) }
+#+STARTUP: indent
+
+* TODO LogHandler
+
+** DONE LocalTools
+CLOSED: [2020-03-21 Sat 21:19]
+
+** STARTED DatabaseTools
+
+* Issues
+
+** DONE Crash Protection Record [[file:issues.org::*Fix%20stop%20event%20not%20overwriting%20update%20stop%20event][Fix stop event not overwriting update stop event]]
+CLOSED: [2020-03-24 Tue 14:00]
+
+** TODO Recover Data
+
+*** TODO on start, recover data considering all given data and timestamp of crash
+
+*** TODO because each handler writes on their own thread, it is possible that some might lose more "time" than others                                         Because of this I think it is a good idea to have each handler write in its storage the timestamp of when it was written                             That way we can better measure what was lost. However, this could bring other issues as well. For example, it is possible that                       a player would start while server is active and then stop, but the stop would not be recorded. THen a server crash happens and this player           would appear to have only started and never stopped during the crash. As a result, our server software would give them more than actual time         by assuming he or she was online up until the crash.
+
+** TODO Database Methods
+
+*** TODO Recovery (only applies to log)
+
+**** TODO 1. save last timestamp of write to table
+
+**** TODO 2. on load, find all players who end with START event and give them STOP event with timestamp found in step one
+ 
+*** TODO CompletableFutures
+
+**** TODO Be careful to not create new ones on getter methods. Create them on construction and return same futures for all methods that get one future.
+
+**** TODO Otherwise it will do redundant work

@@ -1,0 +1,6 @@
+{
+    "name": "Youtube Playlist Downloader",
+    "version": "alpha",
+    "description": "downloads a whole playlist with the click of a button"
+    "manifest_version": 1
+}

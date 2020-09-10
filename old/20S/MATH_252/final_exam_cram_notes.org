@@ -1,0 +1,29 @@
+#+TODO: TODO(t) STARTED(s) | DONE(d) CANCELED(c)
+#+STARTUP: indent
+
+* Math 252 Cram
+** Topics
+*** TODO Counting
+**** 
+*** TODO Probability
+*** TODO Grammars
+**** Types
+***** Type 0
+****** No restrictions
+***** Type 1 (Context sensitive)
+****** Only allows lAr -> lwr
+****** S -> ,\
+***** Type 2 (Context free)
+****** A -> Any string
+***** Type 3 (regular)
+****** A -> bA
+****** A -> b
+***** S -> ,\
+*** TODO Automata
+**** Equivalence
+***** Not equivalent
+****** Find one string that one accepts and one rejects
+***** Equivalent
+*** STARTED Regular Expressions
+**** DONE [#B] Convert DFA to regular expression with special algorithm I forgot  [[https://rpruim.github.io/m252/S20/from-class/models-of-computation/regular-langauges.html][Algorithm]]
+

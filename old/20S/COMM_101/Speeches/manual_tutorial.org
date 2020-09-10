@@ -1,0 +1,38 @@
+* How to Drive a Manual
+
+
+** Differences between automatic and manual car
+
+1. Manuals have a clutch
+2. Manuals require good knowledge of clutch and basic understanding of a car's engine
+
+
+** Basics of clutch
+
+1. The clutch is a pedal used to engage the engine of the car with the wheels
+2. Under the hood, there is a disconnect between the engine and the wheels made by a clutch disc which when the clutch pedal is up is pressed against the wheels drive shaft.
+3. If there is a great disconnect between the speed of the engine and the wheels, connecting them will cause either engine damage or a stall
+   1. Like a Merry Go Round - You can't get on a fast spinning one unless you also are going roughly the same speed
+
+      
+** How to start a manual
+
+1. Put it in first gear
+2. Press clutch down
+3. Turn on engine
+4. Slowly release the clutch until you feel it start to catch
+5. Start applying some gas and continue to release the clutch
+
+
+** Common mistake
+
+1. Release the clutch too quickly
+   1. Stall the engine
+   2. This is because you don't give the car enough time for the wheels to "catch up in speed" to the engine.
+   3. In other words, you are connecting a running engine up to wheels that are either not moving, or moving too slow
+
+      
+* Sources
+
+1. [[https://www.wikihow.life/Start-a-Manual-Car][How To Start a Manual Car]]
+2. [[https://auto.howstuffworks.com/transmission1.htm][How Clutch Works]]

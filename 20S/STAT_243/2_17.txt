@@ -1,0 +1,7 @@
+#+STARTUP: indent
+* Probability Distribution
+** Function that tells how often you'd expect to see possible values at a random variable
+** Types
+1. Discrete
+   - variable takes on discrete set of possible values
+   - Finding the probability of what value you roll on a die

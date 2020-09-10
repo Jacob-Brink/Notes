@@ -1,0 +1,88 @@
+[[https://www.youtube.com/watch?v=iv5OKYRbEmU&feature=youtu.be]]
+* Encapsulation
+** language's construct for "wrapping" a type's data and operations into a single syntactic structure
+** Types
+*** Class
+*** Module / Package
+
+* Imperative Programming Era (Structured Programming)
+** ADT's (Abstract Data Types)
+** Problems
+*** Programmers can bypass the interface
+*** Programmers can add operations that should not be allowed on the adt
+** Structured Programming did not hide the ADT's implementation details
+
+* 1977 Wirth designed Modula, a new "container"
+** Called the module
+** types were just values
+** module would wrap together operations and values
+** Ada and Fortran use this, but Ada calls this a package
+** Ada
+*** Called package instead
+*** Only public section of module can be used, called interface
+*** information hiding
+** ADT operations are subprograms that receive the ADT as an argument
+* Modules as "Objects"
+** Ada can have packages without having methods taking the ADT as an argument
+** Ada has initialization block that is optional
+** Cannot be used to create variables, the module is the object, only one instance
+** 
+* Generic Packages
+** "generic" block in package is used to create variables that are unique to each object
+
+Part II
+[[https://www.youtube.com/watch?v=iv5OKYRbEmU&feature=youtu.be]]
+
+* Class
+
+** Origin
+
+*** Dahl and Nygaard created the idea that a type should exist that combines types and values
+
+** Language History
+
+*** Smalltalk
+
+**** Everything are objects and methods
+
+**** attributes are hidden
+
+**** large predefined class library
+
+**** Operations
+
+***** Instance methods
+
+****** messages sent to object
+
+***** Class methods
+
+****** messages sent to class
+
+***** Programs
+
+****** classes with new and run methods
+
+*** C++
+
+**** Allowed for static and dynamic allocation of objects
+
+**** Templates allowed for parameters / generic classes
+
+*** Java
+
+**** Objects can only be dynamically allocated
+
+**** All subprograms must be a member of a class
+
+**** Parametized Classes
+
+***** First used Object class, since all classes were children or grand...children of class object
+
+***** 
+
+** Summary
+
+*** Classes are better for flexibility, reuseability, and maintenance
+
+*** Modules are better for time-efficiency and performance

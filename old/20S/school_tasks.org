@@ -1,0 +1,329 @@
+#+TAGS: { Type : CATCHUP(b) CURRENT(r) }
+#+TAGS: { Class : STATS(t) COMM(s) MATH(m) CS(c) REL(r) MUSIC(n) }
+#+TODO: TODO INPROGRESS WAITING | DONE CANCELLED
+
+* Introduction
+** This was made during the Coronavirus quarantine of 2020. It did help for a bit, but then I became lazy and didn't use it as much as I probably should have
+
+* Tasks
+** INPROGRESS Return textbooks                                         :MISC: 
+   SCHEDULED: <2020-05-20 Wed>
+   :PROPERTIES:
+   :Created:  [2020-05-20 Wed 12:45]
+   :END:
+
+** DONE Lab 10                                                           :CS: 
+   CLOSED: [2020-04-24 Fri 15:35] SCHEDULED: <2020-04-24 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-21 Tue 15:33]
+   :END:
+
+** DONE Project 9                                                        :CS: 
+   CLOSED: [2020-04-21 Tue 15:36] SCHEDULED: <2020-04-22 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-21 Tue 15:32]
+   :END:
+
+** CANCELLED [#A] Test #2                                              :MATH: 
+   CLOSED: [2020-05-17 Sun 12:13] SCHEDULED: <2020-05-01 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-21 Tue 14:01]
+   :END:
+
+** DONE Paper #2 According to Email                                     :REL: 
+   CLOSED: [2020-05-17 Sun 12:13] SCHEDULED: <2020-04-24 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-21 Tue 14:00]
+   :END:
+
+** DONE Trombone next half of the Bordogni. Also record the G Major/E Minor scales :MUSIC: 
+   CLOSED: [2020-04-21 Tue 13:55] SCHEDULED: <2020-04-17 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-16 Thu 22:14]
+   :END:
+
+** DONE CS LAB 9                                                         :CS: 
+   CLOSED: [2020-04-17 Fri 14:26] SCHEDULED: <2020-04-17 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-16 Thu 16:27]
+   :END:
+
+** CANCELLED Get Verification on Dataset and Question EMAIL           :STATS: 
+   CLOSED: [2020-04-16 Thu 14:07] SCHEDULED: <2020-04-15 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-15 Wed 19:26]
+   :END:
+
+** DONE PS 13  [[https://rpruim.github.io/m252/S20/hw/hw02.pdf][problems]]                                                :MATH: 
+   CLOSED: [2020-04-21 Tue 13:55] SCHEDULED: <2020-04-17 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-15 Wed 11:43]
+   :END:
+
+** DONE Submit PS 12                                                   :MATH: 
+   CLOSED: [2020-04-15 Wed 11:43] SCHEDULED: <2020-04-15 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-14 Tue 10:20]
+   :END:
+
+** DONE Clean up jacobpeterbrink@gmail.com Google Drive   
+   CLOSED: [2020-04-14 Tue 09:27] SCHEDULED: <2020-04-14 Tue>
+   :PROPERTIES:
+   :Created:  [2020-04-14 Tue 09:27]
+   :END:
+
+** DONE Practice trombone and submit recordings                       :MUSIC: 
+   CLOSED: [2020-04-14 Tue 21:43] SCHEDULED: <2020-04-14 Tue>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 21:44]
+   :END:
+
+** DONE Resubmit REL essay according to email response                  :REL: 
+   CLOSED: [2020-04-14 Tue 09:42] SCHEDULED: <2020-04-14 Tue>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 21:43]
+   :END:
+
+** DONE Inform Teacher on Topic Change                                 :COMM: 
+   CLOSED: [2020-05-17 Sun 12:13] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 14:27]
+   :END:
+
+** DONE Persuasive Speech Upload                                       :COMM: 
+   CLOSED: [2020-05-17 Sun 12:13] SCHEDULED: <2020-04-22 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 14:26]
+   :END:
+
+** DONE PS 12 [[https://rpruim.github.io/m252/S20/hw/hw02.pdf][problems]]                                                 :MATH: 
+   CLOSED: [2020-04-14 Tue 10:18] SCHEDULED: <2020-04-15 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 14:23]
+   :END:
+
+** DONE CS Project 8                                                     :CS: 
+   CLOSED: [2020-04-15 Wed 16:46] SCHEDULED: <2020-04-15 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 14:22]
+   :END:
+
+** DONE Email back Vander person about response issues lol             :MATH: 
+   CLOSED: [2020-04-14 Tue 10:21] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 10:01]
+   :END:
+
+** DONE Email Professor Pruim                                          :MATH: 
+   CLOSED: [2020-04-13 Mon 10:01] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 09:56]
+   :END:
+
+** CANCELLED Clean up GMAIL   
+   CLOSED: [2020-04-13 Mon 11:09]
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 09:22]
+   :END:
+
+** TODO [#A] Write thank you note for Gordon Vanderbrug Scholarship [[https://calvin.academicworks.com/opportunities/13311/applications/312642#supplemental_questions][link]] :CURRENT: 
+   SCHEDULED: <2020-05-18 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-13 Mon 09:21]
+   :END:
+
+** DONE PS 11                                                  :MATH:CURRENT: 
+   CLOSED: [2020-04-13 Mon 11:02] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-11 Sat 11:20]
+   :END:
+
+** DONE [#A] Accept Scholarship   
+   CLOSED: [2020-04-13 Mon 09:21] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-11 Sat 08:39]
+   :END:
+
+** CANCELLED f                                                          :f:f: 
+   CLOSED: [2020-05-17 Sun 12:13]
+ :PROPERTIES:
+ :Created: [2020-04-11 Sat 08:38]
+ Link: [[file:~/org-mode/school_tasks.org::*PS10%20EST.%202hr][PS10 EST. 2hr]]
+ :END:
+
+** CANCELLED Figure out how to add time property todos   
+   CLOSED: [2020-04-11 Sat 09:37] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-10 Fri 11:36]
+   :END:
+
+** DONE [#A] Email Doctor   
+   CLOSED: [2020-04-13 Mon 09:30] SCHEDULED: <2020-04-11 Sat>
+   :PROPERTIES:
+   :Created:  [2020-04-10 Fri 11:33]
+   :END:
+
+** DONE Practice Trombone; Record; Email Professor Recording Est: 1 hr :MUSIC: 
+   CLOSED: [2020-04-14 Tue 21:44] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-08 Wed 20:11]
+   :END:
+
+** CANCELLED Practice Trombone 1.5 hrs                                :MUSIC: 
+   CLOSED: [2020-04-14 Tue 21:43] SCHEDULED: <2020-04-13 Mon>
+   :PROPERTIES:
+   :Created:  [2020-04-08 Wed 20:11]
+   :END:
+
+** CANCELLED Record Prepared Trombone Excerpts and Turn In .5 hr      :MUSIC: 
+   CLOSED: [2020-04-10 Fri 12:56] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 21:24]
+   :END:
+
+** DONE Paper #2 4 pages                                                :REL: 
+   CLOSED: [2020-05-17 Sun 12:13] SCHEDULED: <2020-05-01 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 21:02]
+   :END:
+
+** DONE Paper #1 Write 4 pages EST: 2 hours                             :REL: 
+   CLOSED: [2020-04-13 Mon 17:33] SCHEDULED: <2020-04-17 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 21:01]
+   :END:
+
+** DONE Math Class Before PS10 Est. 3 hrs                      :CATCHUP:MATH: 
+   CLOSED: [2020-04-11 Sat 11:24] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 15:06]
+   :END:
+
+** DONE Math Classwork Before PS9  Est. 4 hrs                  :MATH:CATCHUP: 
+   CLOSED: [2020-04-10 Fri 12:55] SCHEDULED: <2020-04-09 Thu>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 15:03]
+   :END:
+
+** DONE Math Classwork Before PS8 EST: 4hrs                    :CATCHUP:MATH: 
+   CLOSED: [2020-04-10 Fri 11:47] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:28]
+   :END:
+
+** DONE PS8 EST. 2hrs Actual: 1 hr                             :CATCHUP:MATH: 
+   CLOSED: [2020-04-10 Fri 12:25] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:24]
+   :END:
+
+** DONE PS9 EST. 2 hrs                                         :MATH:CATCHUP: 
+   CLOSED: [2020-04-10 Fri 12:55] SCHEDULED: <2020-04-09 Thu>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:23]
+   :END:
+
+** DONE PS10 EST. 2hr                                          :CURRENT:MATH: 
+   CLOSED: [2020-04-11 Sat 11:19] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:17]
+   :END:
+
+** DONE Lab 8 Est. 3 hrs                                         :CS:CURRENT: 
+   CLOSED: [2020-04-10 Fri 11:32] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:15]
+   :END:
+
+** DONE Normal Test EST. 2 hrs                                :CURRENT:STATS: 
+   CLOSED: [2020-05-17 Sun 12:14] SCHEDULED: <2020-04-09 Thu>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:13]
+   :END:
+
+** DONE Go through Normal CI Tutorial EST. 2 hr               :STATS:CURRENT: 
+   CLOSED: [2020-04-16 Thu 16:34] SCHEDULED: <2020-04-09 Thu>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:11]
+   :END:
+
+** DONE Quiz 8 EST: 0.5 hrs                                   :CURRENT:STATS: 
+   CLOSED: [2020-04-16 Thu 16:34] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:09]
+   :END:
+
+** DONE Homework 11 EST: 2 hrs                                :STATS:CURRENT: 
+   CLOSED: [2020-05-17 Sun 12:14] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 14:07]
+   :END:
+
+** DONE Create todo list                                      :STATS:CATCHUP:
+   CLOSED: [2020-05-17 Sun 12:14] SCHEDULED: <2020-04-08 Wed>
+*** TODO STATS
+**** DONE CATCHUP
+     CLOSED: [2020-04-07 Tue 14:05]
+**** DONE CURRENT
+     CLOSED: [2020-04-07 Tue 14:14]
+*** DONE CS
+    CLOSED: [2020-04-07 Tue 14:17]
+*** DONE Math
+    CLOSED: [2020-04-07 Tue 14:26]
+** DONE Homework 10   EST 1.5 hrs                             :CATCHUP:STATS: 
+   CLOSED: [2020-04-08 Wed 20:09] SCHEDULED: <2020-04-09 Thu>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 13:49]
+   :END:
+
+** DONE project 3 EST. 3 hrs                                  :STATS:CATCHUP: 
+   CLOSED: [2020-04-16 Thu 14:07] SCHEDULED: <2020-04-11 Sat>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 13:45]
+   :END:
+
+** DONE Generating Randomization Distributions Lectures EST. 1.5 hrs :CATCHUP:STATS:
+   CLOSED: [2020-04-16 Thu 16:35] SCHEDULED: <2020-04-10 Fri>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 13:39]
+   :END:
+
+** DONE Quiz 7 EST .5 hrs                                     :CATCHUP:STATS:
+   CLOSED: [2020-04-08 Wed 18:16] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 13:37]
+   :END:
+
+** CANCELLED Write Religion Paper EST 4hrs                      :CURRENT:REL:
+   CLOSED: [2020-04-07 Tue 21:04] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 11:25]
+   :END:
+
+** DONE Read Religion HW 2hrs [[file:~/Notes/20S/REL_222/papers.txt::REL%20222%20Writing%20Assignment][link]]                              :CURRENT:REL:
+   CLOSED: [2020-04-07 Tue 21:03] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 11:23]
+   :END:
+
+** DONE Email back trombone professor .25 hrs                 :CURRENT:MUSIC:
+   CLOSED: [2020-04-08 Wed 10:02] SCHEDULED: <2020-04-07 Tue>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 10:04]
+   :END:
+
+** DONE CS Project 7 4hrs                                        :CURRENT:CS:
+   CLOSED: [2020-04-08 Wed 14:51] SCHEDULED: <2020-04-08 Wed>
+   :PROPERTIES:
+   :Created:  [2020-04-07 Tue 10:02]
+   :END:
+*** DONE Java
+    CLOSED: [2020-04-08 Wed 10:49]
+*** DONE Ruby
+    CLOSED: [2020-04-08 Wed 11:29]
+*** DONE Clojure
+    CLOSED: [2020-04-08 Wed 12:57]
+*** DONE Ada
+    CLOSED: [2020-04-08 Wed 14:52]
+    
+g

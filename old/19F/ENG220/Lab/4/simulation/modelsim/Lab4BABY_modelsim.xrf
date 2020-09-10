@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, H:/engr220/4/Lab4BABY.bdf
+source_file = 1, H:/engr220/4/Waveform.vwf
+source_file = 1, H:/engr220/4/output_files/Waveform.vwf
+source_file = 1, H:/engr220/4/db/Lab4BABY.cbx.xml
+design_name = Lab4BABY
+instance = comp, \TICKTOCGOETHCLOCk~I , TICKTOCGOETHCLOCk, Lab4BABY, 1
+instance = comp, \CLEAR~I , CLEAR, Lab4BABY, 1
+instance = comp, \In1~I , In1, Lab4BABY, 1
+instance = comp, \In0~I , In0, Lab4BABY, 1
+instance = comp, \Unit0LED~I , Unit0LED, Lab4BABY, 1
+instance = comp, \Unit1LED~I , Unit1LED, Lab4BABY, 1

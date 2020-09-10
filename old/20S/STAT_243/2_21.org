@@ -1,0 +1,5 @@
+* Method of Moments
+** Goal: fit a pdf to data
+1. find mean of data & PDF, set equal
+2. If pdf has 2 parameters, find variance of data and PDF set equal.
+3. Solve equations for parameters

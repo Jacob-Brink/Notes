@@ -1,0 +1,356 @@
+Fitter report for Lab3
+Thu Sep 26 23:20:12 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Parallel Compilation
+  5. Pin-Out File
+  6. Fitter Resource Usage Summary
+  7. Input Pins
+  8. Output Pins
+  9. All Package Pins
+ 10. I/O Standard
+ 11. Dedicated Inputs I/O
+ 12. Output Pin Default Load For Reported TCO
+ 13. Fitter Resource Utilization by Entity
+ 14. Control Signals
+ 15. Global & Other Fast Signals
+ 16. Non-Global High Fan-Out Signals
+ 17. Other Routing Usage Summary
+ 18. LAB Macrocells
+ 19. Shareable Expander
+ 20. Logic Cell Interconnection
+ 21. Fitter Device Options
+ 22. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Fitter Summary                                                               ;
++---------------------------+--------------------------------------------------+
+; Fitter Status             ; Successful - Thu Sep 26 23:20:12 2019            ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name             ; Lab3                                             ;
+; Top-level Entity Name     ; Lab3                                             ;
+; Family                    ; MAX7000S                                         ;
+; Device                    ; EPM7064SLC44-10                                  ;
+; Timing Models             ; Final                                            ;
+; Total macrocells          ; 4 / 64 ( 6 % )                                   ;
+; Total pins                ; 10 / 36 ( 28 % )                                 ;
++---------------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                              ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM7064SLC44-10 ;               ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Optimize Multi-Corner Timing                                               ; Off             ; Off           ;
+; Optimize Timing for ECOs                                                   ; Off             ; Off           ;
+; Regenerate full fit report during ECO compiles                             ; Off             ; Off           ;
+; Optimize IOC Register Placement for Timing                                 ; Normal          ; Normal        ;
+; Fitter Initial Placement Seed                                              ; 1               ; 1             ;
+; Slow Slew Rate                                                             ; Off             ; Off           ;
+; Fitter Effort                                                              ; Auto Fit        ; Auto Fit      ;
+; Force Fitter to Avoid Periphery Placement Warnings                         ; Off             ; Off           ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------+
+; Pin-Out File ;
++--------------+
+The pin-out file can be found in H:/engr220/Engineering HW/output_files/Lab3.pin.
+
+
++-------------------------------------------------+
+; Fitter Resource Usage Summary                   ;
++------------------------------+------------------+
+; Resource                     ; Usage            ;
++------------------------------+------------------+
+; Logic cells                  ; 4 / 64 ( 6 % )   ;
+; Registers                    ; 4 / 64 ( 6 % )   ;
+; Number of pterms used        ; 9                ;
+; I/O pins                     ; 10 / 36 ( 28 % ) ;
+;     -- Clock pins            ; 1 / 2 ( 50 % )   ;
+;     -- Dedicated input pins  ; 0 / 2 ( 0 % )    ;
+;                              ;                  ;
+; Global signals               ; 1                ;
+; Shareable expanders          ; 2 / 64 ( 3 % )   ;
+; Parallel expanders           ; 0 / 60 ( 0 % )   ;
+; Cells using turbo bit        ; 4 / 64 ( 6 % )   ;
+; Maximum fan-out              ; 5                ;
+; Highest non-global fan-out   ; 5                ;
+; Total fan-out                ; 26               ;
+; Average fan-out              ; 1.63             ;
++------------------------------+------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                     ;
++----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Name     ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; I/O Standard ; Location assigned by ;
++----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Clock    ; 43    ; --       ; --  ; 4                     ; 0                  ; yes    ; no             ; TTL          ; Fitter               ;
+; ResetLow ; 4     ; --       ; 1   ; 2                     ; 0                  ; no     ; no             ; TTL          ; Fitter               ;
++----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                              ;
++------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name ; Pin # ; I/O Bank ; LAB ; Output Register ; Slow Slew Rate ; Open Drain ; TRI Primitive ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; L1   ; 9     ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; L2   ; 11    ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; L3   ; 12    ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; L4   ; 8     ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
++------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; All Package Pins                                                                                      ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; Location ; Pad Number ; I/O Bank ; Pin Name/Usage ; Dir.   ; I/O Standard ; Voltage ; User Assignment ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; 1        ; 0          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 2        ; 1          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 3        ; 2          ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 4        ; 3          ; --       ; ResetLow       ; input  ; TTL          ;         ; N               ;
+; 5        ; 4          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 6        ; 5          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 7        ; 6          ; --       ; TDI            ; input  ; TTL          ;         ; N               ;
+; 8        ; 7          ; --       ; L4             ; output ; TTL          ;         ; N               ;
+; 9        ; 8          ; --       ; L1             ; output ; TTL          ;         ; N               ;
+; 10       ; 9          ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 11       ; 10         ; --       ; L2             ; output ; TTL          ;         ; N               ;
+; 12       ; 11         ; --       ; L3             ; output ; TTL          ;         ; N               ;
+; 13       ; 12         ; --       ; TMS            ; input  ; TTL          ;         ; N               ;
+; 14       ; 13         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 15       ; 14         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 16       ; 15         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 17       ; 16         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 18       ; 17         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 19       ; 18         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 20       ; 19         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 21       ; 20         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 22       ; 21         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 23       ; 22         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 24       ; 23         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 25       ; 24         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 26       ; 25         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 27       ; 26         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 28       ; 27         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 29       ; 28         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 30       ; 29         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 31       ; 30         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 32       ; 31         ; --       ; TCK            ; input  ; TTL          ;         ; N               ;
+; 33       ; 32         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 34       ; 33         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 35       ; 34         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 36       ; 35         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 37       ; 36         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 38       ; 37         ; --       ; TDO            ; output ; TTL          ;         ; N               ;
+; 39       ; 38         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 40       ; 39         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 41       ; 40         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 42       ; 41         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 43       ; 42         ; --       ; Clock          ; input  ; TTL          ;         ; N               ;
+; 44       ; 43         ; --       ; GND+           ;        ;              ;         ;                 ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+Note: Pin directions (input, output or bidir) are based on device operating in user mode.
+
+
++--------------------------------------------------------------------------------------------------+
+; I/O Standard                                                                                     ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+; I/O Standard ; Input Vref ; Dedicated Input Pins ; Pins in I/O Bank1 ; Pins in I/O Bank2 ; Total ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+; TTL          ; -          ; 1                    ; 0                 ; 0                 ; 1     ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+
+
++---------------------------------------------------------------------+
+; Dedicated Inputs I/O                                                ;
++-------+-------+-------+-------+--------------+------------+---------+
+; Name  ; Pin # ; Type  ; VCCIO ; I/O Standard ; Input Vref ; Current ;
++-------+-------+-------+-------+--------------+------------+---------+
+; Clock ; 43    ; Input ; --    ; TTL          ; -          ; 0 mA    ;
++-------+-------+-------+-------+--------------+------------+---------+
+
+
++-----------------------------------------------+
+; Output Pin Default Load For Reported TCO      ;
++--------------+-------+------------------------+
+; I/O Standard ; Load  ; Termination Resistance ;
++--------------+-------+------------------------+
+; TTL          ; 10 pF ; Not Available          ;
++--------------+-------+------------------------+
+Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
+
+
++-------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                               ;
++----------------------------+------------+------+---------------------+--------------+
+; Compilation Hierarchy Node ; Macrocells ; Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+------------+------+---------------------+--------------+
+; |Lab3                      ; 4          ; 10   ; |Lab3               ; work         ;
++----------------------------+------------+------+---------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                 ;
++----------+----------+---------+--------------+--------+----------------------+------------------+
+; Name     ; Location ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
++----------+----------+---------+--------------+--------+----------------------+------------------+
+; Clock    ; PIN_43   ; 4       ; Clock        ; yes    ; On                   ; --               ;
+; inst10~3 ; SEXP1    ; 4       ; Async. clear ; no     ; --                   ; --               ;
+; inst10~4 ; SEXP3    ; 4       ; Async. clear ; no     ; --                   ; --               ;
+; inst3    ; LC3      ; 2       ; Clock enable ; no     ; --                   ; --               ;
+; inst4    ; LC1      ; 3       ; Clock enable ; no     ; --                   ; --               ;
+; inst5    ; LC5      ; 5       ; Clock enable ; no     ; --                   ; --               ;
++----------+----------+---------+--------------+--------+----------------------+------------------+
+
+
++----------------------------------------------------------------------+
+; Global & Other Fast Signals                                          ;
++-------+----------+---------+----------------------+------------------+
+; Name  ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ;
++-------+----------+---------+----------------------+------------------+
+; Clock ; PIN_43   ; 4       ; On                   ; --               ;
++-------+----------+---------+----------------------+------------------+
+
+
++---------------------------------+
+; Non-Global High Fan-Out Signals ;
++----------+----------------------+
+; Name     ; Fan-Out              ;
++----------+----------------------+
+; inst5    ; 5                    ;
+; inst10~4 ; 4                    ;
+; inst10~3 ; 4                    ;
+; inst4    ; 3                    ;
+; ResetLow ; 2                    ;
+; inst2    ; 2                    ;
+; inst3    ; 2                    ;
++----------+----------------------+
+
+
++-----------------------------------------------+
+; Other Routing Usage Summary                   ;
++-----------------------------+-----------------+
+; Other Routing Resource Type ; Usage           ;
++-----------------------------+-----------------+
+; Output enables              ; 0 / 6 ( 0 % )   ;
+; PIA buffers                 ; 5 / 144 ( 3 % ) ;
++-----------------------------+-----------------+
+
+
++----------------------------------------------------------------------+
+; LAB Macrocells                                                       ;
++----------------------------------------+-----------------------------+
+; Number of Macrocells  (Average = 1.00) ; Number of LABs  (Total = 1) ;
++----------------------------------------+-----------------------------+
+; 0                                      ; 3                           ;
+; 1                                      ; 0                           ;
+; 2                                      ; 0                           ;
+; 3                                      ; 0                           ;
+; 4                                      ; 1                           ;
++----------------------------------------+-----------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Shareable Expander                                                            ;
++-------------------------------------------------+-----------------------------+
+; Number of shareable expanders  (Average = 0.50) ; Number of LABs  (Total = 1) ;
++-------------------------------------------------+-----------------------------+
+; 0                                               ; 3                           ;
+; 1                                               ; 0                           ;
+; 2                                               ; 1                           ;
++-------------------------------------------------+-----------------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Logic Cell Interconnection                                                                            ;
++-----+------------+------------------------------------------------+-----------------------------------+
+; LAB ; Logic Cell ; Input                                          ; Output                            ;
++-----+------------+------------------------------------------------+-----------------------------------+
+;  A  ; LC1        ; Clock, inst10~3, inst10~4, inst5               ; L3, inst3, inst2                  ;
+;  A  ; LC3        ; Clock, inst10~3, inst10~4, inst5, inst4        ; L2, inst2                         ;
+;  A  ; LC4        ; Clock, inst10~3, inst10~4, inst3, inst5, inst4 ; inst10~4, L1                      ;
+;  A  ; LC5        ; Clock, inst10~3, inst10~4                      ; inst10~3, inst4, inst3, inst2, L4 ;
++-----+------------+------------------------------------------------+-----------------------------------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device EPM7064SLC44-10 for design "Lab3"
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4811 megabytes
+    Info: Processing ended: Thu Sep 26 23:20:12 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

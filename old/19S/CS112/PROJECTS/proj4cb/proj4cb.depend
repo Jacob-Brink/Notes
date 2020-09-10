@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1551662580 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\matrixtester.cpp
+	"MatrixTester.h"
+	<iostream>
+	<cstdlib>
+	<stdexcept>
+
+1551662556 c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\matrixtester.h
+	"Matrix.h"
+
+1551743053 c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\matrix.h
+	"Matrix.h"
+	"Vec.h"
+	<cstdlib>
+
+1551212423 c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\vec.h
+	<iostream>
+	<stdexcept>
+	<fstream>
+	<cassert>
+	<cstdlib>
+
+1551574245 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\tester.cpp
+	"VecTester.h"
+	"MatrixTester.h"
+	"Application.h"
+
+1550597652 c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\vectester.h
+	"Vec.h"
+
+1551205188 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\vectester.cpp
+	"VecTester.h"
+	<iostream>
+	<cassert>
+	<cstdlib>
+	<stdexcept>
+
+1551662486 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\matrix.cpp
+
+1551743051 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\application.cpp
+	"Application.h"
+	"Matrix.h"
+	<string>
+
+1551572553 c:\users\jacob\documents\school\college\19s\cs112\projects\proj4cb\application.h
+

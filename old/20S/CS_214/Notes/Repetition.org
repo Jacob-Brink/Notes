@@ -1,0 +1,29 @@
+* Repetition [[https://cs.calvin.edu/courses/cs/214/adams/pdfs/N02.ControlStructures-Color.pdf][Power Point PDF]]
+
+** Language Implementations
+
+*** While
+1. Pretest or test-at-the-top
+   * while
+   * zero-trip behavior or 0+ times
+2. posttest or test-at-the-bottom
+   * do { stmt list } while (expr)
+   * one-trip behavior or 1+ times
+
+
+*** Counting
+1. for statement 
+
+
+*** Unrestricted Loops
+1. Have no fixed exit point
+2. Examples
+   * for (;;) {} "forever loop"
+   * while(true) {}
+   * do {} while (true)
+3. Ways to Exit using break stmt in c++
+   1. test-at-top
+   2. test-at-middle
+   3. test-at-bottom
+
+

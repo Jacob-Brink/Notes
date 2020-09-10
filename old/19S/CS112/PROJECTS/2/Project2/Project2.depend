@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1550547898 source:c:\users\jacob\documents\school\college\19s\cs112\projects\2\arraytester.cpp
+	"ArrayTester.h"
+	<fstream>
+
+1550009167 c:\users\jacob\documents\school\college\19s\cs112\projects\2\arraytester.h
+	"array.h"
+	<iostream>
+	<cassert>
+
+1550548014 c:\users\jacob\documents\school\college\19s\cs112\projects\2\array.h
+	<iostream>
+	<cassert>
+
+1550009172 source:c:\users\jacob\documents\school\college\19s\cs112\projects\2\main.cpp
+	"ArrayTester.h"
+
+1550547898 source:c:\users\jacob\documents\school\college\19s\cs112\projects\2\array.cpp
+	"array.h"
+	<fstream>
+

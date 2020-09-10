@@ -1,0 +1,31 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @basic(b) feature(f) }
+#+STARTUP: indent
+
+* Time Management
+
+** Records total time online into mysql and local file              :@basic:
+
+*** Mysql Perks
+
+**** allows for discord integration in the future
+
+**** allows for website integration as well
+
+*** Local File Perks 
+
+**** does not need any special setup for normal server owners
+
+**** could be used as backup to mysql
+
+** API for other plugins                                            :@basic:
+
+*** get player total time
+
+*** get player login time list
+
+** Mysql, local, or both?
+
+*** Redundancy                                                    :feature:
+
+*** STARTED One or the other                                       :@basic:

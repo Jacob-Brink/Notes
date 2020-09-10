@@ -1,0 +1,200 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=prv_BlockStructures 2020.9.6)  6 SEP 2020 21:49
+entering extended mode
+**&prv_BlockStructures /AUCTEXINPUT{ BlockStructures.tex }
+(BlockStructures.tex
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box45
+)
+No file BlockStructures.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\preview.sty
+Package: preview 2017/04/24 12.2 (AUCTeX/preview-latex)
+
+("C:\Program Files\MiKTeX\tex/generic/luatex85\luatex85.sty"
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prtightpage.def
+\PreviewBorder=\dimen144
+)
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count180
+\hfuzz=\dimen145
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prauctex.cfg))
+(c:/Users/jacob/Emacs/.emacs.d/elpa/auctex-12.2.0/latex\prfootnotes.def)
+\pr@snippet=\count181
+\pr@box=\box46
+\pr@output=\toks23
+
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+)
+BlockStructures.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 \section
+            *{Notes for My Paper}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+BlockStructures.tex:6: Preview: Snippet 1 ended.(786431+220200x25559040).
+<-><->
+      
+l.6 \section*{Notes for My Paper}
+                                 
+Not a real error.
+
+[1{C:/Users/jacob/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Runaway argument?
+{ & {\bf R-}clear & {\sc comp} & 
+BlockStructures.tex:18: Paragraph ended before \shortex was complete.
+<to be read again> 
+                   \par 
+l.18 {John, (it's) clear that Mary loves (him).}}
+                                                 
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+BlockStructures.tex:18: Misplaced alignment tab character &.
+<argument> ...omp} & \par {\bf IR}.{\sc 3s}-love &
+                                                   P & him & } {John, (it's)...
+l.18 {John, (it's) clear that Mary loves (him).}}
+                                                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+BlockStructures.tex:18: Misplaced alignment tab character &.
+<argument> ... & \par {\bf IR}.{\sc 3s}-love & P &
+                                                   him & } {John, (it's) cle...
+l.18 {John, (it's) clear that Mary loves (him).}}
+                                                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+BlockStructures.tex:18: Misplaced alignment tab character &.
+<argument> ...r {\bf IR}.{\sc 3s}-love & P & him &
+                                                   } {John, (it's) clear tha...
+l.18 {John, (it's) clear that Mary loves (him).}}
+                                                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+BlockStructures.tex:18: Extra }, or forgotten \endgroup.
+<argument> ...{\bf IR}.{\sc 3s}-love & P & him & }
+                                                   {John, (it's) clear that ...
+l.18 {John, (it's) clear that Mary loves (him).}}
+                                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+BlockStructures.tex:21: Preview: Snippet 2 started.
+<-><->
+      
+l.21 \subsection
+                *{How to handle topicalization}
+Not a real error.
+
+BlockStructures.tex:21: Preview: Snippet 2 ended.(655359+183500x25559040).
+<-><->
+      
+l.21 \subsection*{How to handle topicalization}
+                                               
+Not a real error.
+
+[2]
+BlockStructures.tex:36: Preview: Snippet 3 started.
+<-><->
+      
+l.36 }
+      
+Not a real error.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 36.
+BlockStructures.tex:36: Preview: Snippet 3 ended.(551690+0x183865).
+<-><->
+      
+l.36 }
+      
+Not a real error.
+
+[3]
+BlockStructures.tex:36: Preview: Snippet 4 started.
+<-><->
+      
+l.36 }
+      
+Not a real error.
+
+BlockStructures.tex:36: Preview: Snippet 4 ended.(551690+0x183865).
+<-><->
+      
+l.36 }
+      
+Not a real error.
+
+[4]
+BlockStructures.tex:39: Preview: Snippet 5 started.
+<-><->
+      
+l.39 \subsection
+                *{Mood}
+Not a real error.
+
+BlockStructures.tex:39: Preview: Snippet 5 ended.(655359+0x25559040).
+<-><->
+      
+l.39 \subsection*{Mood}
+                       
+Not a real error.
+
+[5] ) 
+Here is how much of TeX's memory you used:
+ 344 strings out of 480408
+ 6775 string characters out of 2902332
+ 245628 words of memory out of 3000000
+ 16764 multiletter control sequences out of 15000+200000
+ 539299 words of font info for 47 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,11n,29p,198b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on BlockStructures.pdf (5 pages, 21446 bytes).
+PDF statistics:
+ 26 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

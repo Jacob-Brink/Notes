@@ -1,0 +1,98 @@
+* Concurrent Programming
+** Ada uses Task
+** Java uses Thread class
+** C++ uses thread
+* Terminology
+** uniprocessor
+*** Computer with one processing core
+*** pseudo-parallel execution (logical concurrency) time-shares
+** multiprocessor
+*** cpu with multiple processing cores
+*** parallel execution (true concurrency)
+*** Coupling
+**** tightly-coupled
+***** cores share main memory
+**** loosely-coupled
+***** cores do not share main memory
+* Parallelizing Compilers
+** builds dependency graphs
+** uses them to run statements that don't depend on each other
+* Processes and Threads
+** Process
+*** computation
+** Thread of Execution
+*** sequence of events
+*** deterministic vs non-deterministic
+**** determinisitic
+***** doesn't change based on input
+**** non-deterministic
+***** changes on input
+* Goal
+* : Speedup
+** Speedup = T1 / TN
+* Responsiveness
+** GUI's, have one thread doing time-consuming tasks, one to handle user interface
+** Network Servers
+* Event Interleaving
+** Different functions may have their statements not run together
+* Communication
+** Tightly-coupled multiprocessor
+*** communicates through shared memory
+** Loosely-coupled multiprocessor
+*** message-passing
+* Shared Memory Synchonization
+** Fixes the issue of accessing shared memory concurrently
+** Forces only one thread at a time to access the shared memory
+* Synchrony
+** (Slower) Lock-Step Synchrony vs No Synchrony (Faster)
+* Producer-Consumer Problem
+** Producers produce tasks and Consumers handle tasks
+** Must 
+
+Shared Memory
+* Mutual Exclusion
+** an object that can only be accessed by "one-thing-at-a-time"
+** An access by one process excludes other processes from access
+** Shared-memory uses this to prevent write-write conflicts
+
+* Synchronization Primitives
+** States
+*** Locked
+*** Unlocked
+** Methods
+*** Init to unlocked
+*** P: Lock semaphore if unlocked
+*** V: Unlock the semaphore (awaken first process waiting for it)
+** Critical Section
+*** Group of statements accessing a shared memory
+
+* Lock and Condition Variables
+** Semaphore Purpose
+*** Mutual exclusion (Locks)
+**** Guard access to critical section
+*** Synchronization (Condition Variables)
+**** Making threads/processes suspend/resume
+
+* Locks
+** Operations
+*** acquire() - try to lock the lock; if locked already, go to sleep (Semaphore P)
+*** release() - unlock the lock; awaken a waiting thread (if any) (Semaphore V)
+
+* Condition Variables
+** Condition is a predefined type available that can be used to declare variables for synchronization
+** Operations
+*** wait() - suspend immediately; enter a queue of waiting threads
+*** signal() (notify in java) - awakens a waiting thread (usually the first in queue)
+*** broadcast() (notifyAll()) in Java - awaken all waiting threads
+
+* Monitors
+** People think semaphores, locks and conditions are simple but too powewrful for the average programmer
+** Monitor
+*** Class whose methods areautomatically accessed in a mutually-exclusive manner
+*** prevents simultaneous access by multiple threads
+** History
+*** Mesa-Style Monitors
+* OpenMP
+** Industry-standard library for shared-memory parallel computin
+** Designed by a lot of companies
+

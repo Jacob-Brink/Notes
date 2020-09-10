@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-09-08 Tue 15:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org6156bbe">1. Introduction to Business</a>
+<ul>
+<li><a href="#orgd292201">1.1. Skeleton</a>
+<ul>
+<li><a href="#org3e9b305">1.1.1. Preface</a></li>
+<li><a href="#orgb52b228">1.1.2. Chapter 1. Understanding Economic Systems and Business</a></li>
+<li><a href="#orga75ba97">1.1.3. Chapter 2. Making Ethical Decisions and Managing a Socially Responsible Business</a></li>
+<li><a href="#org8d73546">1.1.4. Chapter 3. Competing in the Global Marketplace</a></li>
+<li><a href="#org4d7f12d">1.1.5. Chapter 4. Forms of Business Ownership</a></li>
+<li><a href="#orgfc23744">1.1.6. Chapter 5. Entrepreneurship: Starting and Managing Your Own Business</a></li>
+<li><a href="#orgb614798">1.1.7. Chapter 6. Management and Leadership in Today's Organizations</a></li>
+<li><a href="#orgf950e87">1.1.8. Chapter 7. Designing Organizational Structures</a></li>
+<li><a href="#org8c8f5de">1.1.9. Chapter 8. Managing Human Resources and Labor Relations</a></li>
+<li><a href="#orge0c0064">1.1.10. Chapter 9. Motivating Employees</a></li>
+<li><a href="#org0aed6cb">1.1.11. Chapter 10. Achieving World-Class Operations Management</a></li>
+<li><a href="#orgf0a16aa">1.1.12. Chapter 11. Creating Products and Pricing Strategies to Meet Customers' Needs</a></li>
+<li><a href="#org946313b">1.1.13. Chapter 12. Distributing and Promoting Products and Services</a></li>
+<li><a href="#org4eeaf3e">1.1.14. Chapter 13. Using Technology to Manage Information</a></li>
+<li><a href="#org846562f">1.1.15. Chapter 14. Using Financial Information and Accounting</a></li>
+<li><a href="#org9998d67">1.1.16. Chapter 15. Understanding Money and Financial Institutions</a></li>
+<li><a href="#org0658572">1.1.17. Chapter 16. Understanding Financial Management and Securities Markets</a></li>
+<li><a href="#org44435ad">1.1.18. Chapter 17. Your Career in Business</a></li>
+<li><a href="#orgdb79f44">1.1.19. Appendix A. Understanding the Legal and Tax Environment*</a></li>
+<li><a href="#orgf307e40">1.1.20. References</a></li>
+<li><a href="#orgd50494e">1.1.21. Index</a></li>
+<li><a href="#org51b6572">1.1.22. Index</a></li>
+<li><a href="#org1a4691f">1.1.23. Blank Page</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6156bbe" class="outline-2">
+<h2 id="org6156bbe"><span class="section-number-2">1</span> Introduction to Business</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+
+<div id="outline-container-orgd292201" class="outline-3">
+<h3 id="orgd292201"><span class="section-number-3">1.1</span> Skeleton</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org3e9b305" class="outline-4">
+<h4 id="org3e9b305"><span class="section-number-4">1.1.1</span> Preface</h4>
+<div class="outline-text-4" id="text-1-1-1">
+</div>
+
+<ol class="org-ol">
+<li><a id="org1405c13"></a>1. About OpenStax<br />
+<div class="outline-text-5" id="text-1-1-1-1">
+</div>
+</li>
+
+<li><a id="org410a1d2"></a>2. About OpenStax resources<br />
+<div class="outline-text-5" id="text-1-1-1-2">
+</div>
+</li>
+
+<li><a id="org6eb7e99"></a>3. About Introduction to Business<br />
+<div class="outline-text-5" id="text-1-1-1-3">
+</div>
+</li>
+
+<li><a id="org0124ec4"></a>4. Additional resources<br />
+<div class="outline-text-5" id="text-1-1-1-4">
+</div>
+</li>
+
+<li><a id="org5191a02"></a>5. About the authors<br />
+<div class="outline-text-5" id="text-1-1-1-5">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgb52b228" class="outline-4">
+<h4 id="orgb52b228"><span class="section-number-4">1.1.2</span> Chapter 1. Understanding Economic Systems and Business</h4>
+<div class="outline-text-4" id="text-1-1-2">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgf29417e"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-2-1">
+</div>
+</li>
+
+<li><a id="org4e020c6"></a>1.1. The Nature of Business*<br />
+<div class="outline-text-5" id="text-1-1-2-2">
+</div>
+</li>
+
+<li><a id="org4c3187d"></a>1.2. Understanding the Business Environment*<br />
+<div class="outline-text-5" id="text-1-1-2-3">
+</div>
+</li>
+
+<li><a id="orgcafaa6b"></a>1.3. How Business and Economics Work*<br />
+<div class="outline-text-5" id="text-1-1-2-4">
+</div>
+</li>
+
+<li><a id="org177859e"></a>1.4. Macroeconomics: The Big Picture*<br />
+<div class="outline-text-5" id="text-1-1-2-5">
+</div>
+</li>
+
+<li><a id="org8091c81"></a>1.5. Achieving Macroeconomic Goals*<br />
+<div class="outline-text-5" id="text-1-1-2-6">
+</div>
+</li>
+
+<li><a id="orgfdef303"></a>1.6. Microeconomics: Zeroing in on Businesses and Consumers*<br />
+<div class="outline-text-5" id="text-1-1-2-7">
+</div>
+</li>
+
+<li><a id="orgc60885b"></a>1.7. Competing in a Free Market*<br />
+<div class="outline-text-5" id="text-1-1-2-8">
+</div>
+</li>
+
+<li><a id="org6b1f0eb"></a>1.8. Trends in the Business Environment and Competition*<br />
+<div class="outline-text-5" id="text-1-1-2-9">
+</div>
+</li>
+
+<li><a id="org6144a1c"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-2-10">
+</div>
+</li>
+
+<li><a id="orgb169ade"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-2-11">
+</div>
+</li>
+
+<li><a id="org4b8e3c1"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-2-12">
+</div>
+</li>
+
+<li><a id="org46b1c95"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-2-13">
+</div>
+</li>
+
+<li><a id="orga62723b"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-2-14">
+</div>
+</li>
+
+<li><a id="orgdc5659d"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-2-15">
+</div>
+</li>
+
+<li><a id="orgf744346"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-2-16">
+</div>
+</li>
+
+<li><a id="org5bad377"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-2-17">
+</div>
+</li>
+
+<li><a id="org9776c9c"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-2-18">
+</div>
+</li>
+
+<li><a id="orgbe36539"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-2-19">
+</div>
+</li>
+
+<li><a id="orgd6cdc8c"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-2-20">
+</div>
+</li>
+
+<li><a id="org465d8f3"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-2-21">
+</div>
+</li>
+
+<li><a id="org8fd1e1c"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-2-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orga75ba97" class="outline-4">
+<h4 id="orga75ba97"><span class="section-number-4">1.1.3</span> Chapter 2. Making Ethical Decisions and Managing a Socially Responsible Business</h4>
+<div class="outline-text-4" id="text-1-1-3">
+</div>
+
+<ol class="org-ol">
+<li><a id="org2abb7a5"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-3-1">
+</div>
+</li>
+
+<li><a id="org4b92653"></a>2.1. Understanding Business Ethics*<br />
+<div class="outline-text-5" id="text-1-1-3-2">
+<p>
+:NOTER<sub>PAGE</sub>: (73 . 0.508838)
+</p>
+<pre class="example">
+
+
+</pre>
+<p>
+:PROPERTIES:
+:NOTER<sub>PAGE</sub>: (74 . 0.1507537688442211)
+</p>
+</div>
+</li>
+
+<li><a id="org639a2b8"></a>2.2. How Organizations Influence Ethical Conduct*<br />
+<div class="outline-text-5" id="text-1-1-3-3">
+</div>
+</li>
+
+<li><a id="org165eabb"></a>2.3. Managing a Socially Responsible Business*<br />
+<div class="outline-text-5" id="text-1-1-3-4">
+</div>
+</li>
+
+<li><a id="org43671e1"></a>2.4. Responsibilities to Stakeholders*<br />
+<div class="outline-text-5" id="text-1-1-3-5">
+</div>
+</li>
+
+<li><a id="org1b6fc8a"></a>2.5. Trends in Ethics and Corporate Social Responsibility*<br />
+<div class="outline-text-5" id="text-1-1-3-6">
+</div>
+</li>
+
+<li><a id="orgf916aeb"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-3-7">
+</div>
+</li>
+
+<li><a id="orgeef2ee3"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-3-8">
+</div>
+</li>
+
+<li><a id="orgba2c56a"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-3-9">
+</div>
+</li>
+
+<li><a id="orgf2a9dc0"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-3-10">
+</div>
+</li>
+
+<li><a id="orged136af"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-3-11">
+</div>
+</li>
+
+<li><a id="orgd976408"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-3-12">
+</div>
+</li>
+
+<li><a id="org84ef84e"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-3-13">
+</div>
+</li>
+
+<li><a id="org85d4c99"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-3-14">
+</div>
+</li>
+
+<li><a id="org601d1b2"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-3-15">
+</div>
+</li>
+
+<li><a id="org3bd2411"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-3-16">
+</div>
+</li>
+
+<li><a id="orgd8494be"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-3-17">
+</div>
+</li>
+
+<li><a id="org8c8d674"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-3-18">
+</div>
+</li>
+
+<li><a id="orgece5194"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-3-19">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org8d73546" class="outline-4">
+<h4 id="org8d73546"><span class="section-number-4">1.1.4</span> Chapter 3. Competing in the Global Marketplace</h4>
+<div class="outline-text-4" id="text-1-1-4">
+</div>
+
+<ol class="org-ol">
+<li><a id="org14d9fbb"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-4-1">
+</div>
+</li>
+
+<li><a id="org15a6153"></a>3.1. Global Trade in the United States*<br />
+<div class="outline-text-5" id="text-1-1-4-2">
+</div>
+</li>
+
+<li><a id="orgeb24d5a"></a>3.2. Why Nations Trade*<br />
+<div class="outline-text-5" id="text-1-1-4-3">
+</div>
+</li>
+
+<li><a id="org7f1b864"></a>3.3. Barriers to Trade*<br />
+<div class="outline-text-5" id="text-1-1-4-4">
+</div>
+</li>
+
+<li><a id="orgaea3b29"></a>3.4. Fostering Global Trade*<br />
+<div class="outline-text-5" id="text-1-1-4-5">
+</div>
+</li>
+
+<li><a id="org91742af"></a>3.5. International Economic Communities*<br />
+<div class="outline-text-5" id="text-1-1-4-6">
+</div>
+</li>
+
+<li><a id="orgdd1bd4e"></a>3.6. Participating in the Global Marketplace*<br />
+<div class="outline-text-5" id="text-1-1-4-7">
+</div>
+</li>
+
+<li><a id="org0815b79"></a>3.7. Threats and Opportunities in the Global Marketplace*<br />
+<div class="outline-text-5" id="text-1-1-4-8">
+</div>
+</li>
+
+<li><a id="org561a50f"></a>3.8. The Impact of Multinational Corporations*<br />
+<div class="outline-text-5" id="text-1-1-4-9">
+</div>
+</li>
+
+<li><a id="orgc7a871c"></a>3.9. Trends in Global Competition*<br />
+<div class="outline-text-5" id="text-1-1-4-10">
+</div>
+</li>
+
+<li><a id="orga058ec2"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-4-11">
+</div>
+</li>
+
+<li><a id="org26627ba"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-4-12">
+</div>
+</li>
+
+<li><a id="orgb134c2f"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-4-13">
+</div>
+</li>
+
+<li><a id="org4e7d37a"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-4-14">
+</div>
+</li>
+
+<li><a id="org2b5e4ee"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-4-15">
+</div>
+</li>
+
+<li><a id="org4298336"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-4-16">
+</div>
+</li>
+
+<li><a id="org9b3f6c4"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-4-17">
+</div>
+</li>
+
+<li><a id="orgc58293f"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-4-18">
+</div>
+</li>
+
+<li><a id="org6d81885"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-4-19">
+</div>
+</li>
+
+<li><a id="org15a8143"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-4-20">
+</div>
+</li>
+
+<li><a id="org648bee8"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-4-21">
+</div>
+</li>
+
+<li><a id="orgcefb74b"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-4-22">
+</div>
+</li>
+
+<li><a id="org9dec0ac"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-4-23">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org4d7f12d" class="outline-4">
+<h4 id="org4d7f12d"><span class="section-number-4">1.1.5</span> Chapter 4. Forms of Business Ownership</h4>
+<div class="outline-text-4" id="text-1-1-5">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgbc5635a"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-5-1">
+</div>
+</li>
+
+<li><a id="org34cb391"></a>4.1. Going It Alone: Sole Proprietorships*<br />
+<div class="outline-text-5" id="text-1-1-5-2">
+</div>
+</li>
+
+<li><a id="org9347b1b"></a>4.2. Partnerships: Sharing the Load*<br />
+<div class="outline-text-5" id="text-1-1-5-3">
+</div>
+</li>
+
+<li><a id="org9b57cde"></a>4.3. Corporations: Limiting Your Liability*<br />
+<div class="outline-text-5" id="text-1-1-5-4">
+</div>
+</li>
+
+<li><a id="org31735a1"></a>4.4. Specialized Forms of Business Organization*<br />
+<div class="outline-text-5" id="text-1-1-5-5">
+</div>
+</li>
+
+<li><a id="orgccdb4f2"></a>4.5. Franchising: A Popular Trend*<br />
+<div class="outline-text-5" id="text-1-1-5-6">
+</div>
+</li>
+
+<li><a id="org9ad59f9"></a>4.6. Mergers and Acquisitions*<br />
+<div class="outline-text-5" id="text-1-1-5-7">
+</div>
+</li>
+
+<li><a id="org45e985f"></a>4.7. Trends in Business Ownership*<br />
+<div class="outline-text-5" id="text-1-1-5-8">
+</div>
+</li>
+
+<li><a id="org469373d"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-5-9">
+</div>
+</li>
+
+<li><a id="orga58932c"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-5-10">
+</div>
+</li>
+
+<li><a id="org9f68ed9"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-5-11">
+</div>
+</li>
+
+<li><a id="org94069f9"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-5-12">
+</div>
+</li>
+
+<li><a id="orgafc2578"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-5-13">
+</div>
+</li>
+
+<li><a id="orge717246"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-5-14">
+</div>
+</li>
+
+<li><a id="orgf9f4192"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-5-15">
+</div>
+</li>
+
+<li><a id="org4e080ae"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-5-16">
+</div>
+</li>
+
+<li><a id="orgf87d61a"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-5-17">
+</div>
+</li>
+
+<li><a id="org75144c7"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-5-18">
+</div>
+</li>
+
+<li><a id="org8099da3"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-5-19">
+</div>
+</li>
+
+<li><a id="org1e921f4"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-5-20">
+</div>
+</li>
+
+<li><a id="orgd3a45bd"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-5-21">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgfc23744" class="outline-4">
+<h4 id="orgfc23744"><span class="section-number-4">1.1.6</span> Chapter 5. Entrepreneurship: Starting and Managing Your Own Business</h4>
+<div class="outline-text-4" id="text-1-1-6">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgd9479c7"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-6-1">
+</div>
+</li>
+
+<li><a id="org9693775"></a>5.1. Entrepreneurship Today*<br />
+<div class="outline-text-5" id="text-1-1-6-2">
+</div>
+</li>
+
+<li><a id="org382521c"></a>5.2. Characteristics of Successful Entrepreneurs*<br />
+<div class="outline-text-5" id="text-1-1-6-3">
+</div>
+</li>
+
+<li><a id="orgd0935bf"></a>5.3. Small Business: Driving America's Growth*<br />
+<div class="outline-text-5" id="text-1-1-6-4">
+</div>
+</li>
+
+<li><a id="orgbc26d90"></a>5.4. Ready, Set, Start Your Own Business*<br />
+<div class="outline-text-5" id="text-1-1-6-5">
+</div>
+</li>
+
+<li><a id="org8ad0e01"></a>5.5. Managing a Small Business*<br />
+<div class="outline-text-5" id="text-1-1-6-6">
+</div>
+</li>
+
+<li><a id="orgfbb4c8b"></a>5.6. Small Business, Large Impact*<br />
+<div class="outline-text-5" id="text-1-1-6-7">
+</div>
+</li>
+
+<li><a id="orgccf145d"></a>5.7. The Small Business Administration*<br />
+<div class="outline-text-5" id="text-1-1-6-8">
+</div>
+</li>
+
+<li><a id="orgb953939"></a>5.8. Trends in Entrepreneurship and Small-Business Ownership*<br />
+<div class="outline-text-5" id="text-1-1-6-9">
+</div>
+</li>
+
+<li><a id="orge599356"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-6-10">
+</div>
+</li>
+
+<li><a id="org80deea5"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-6-11">
+</div>
+</li>
+
+<li><a id="org7e829f7"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-6-12">
+</div>
+</li>
+
+<li><a id="orgcec0d21"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-6-13">
+</div>
+</li>
+
+<li><a id="orgb8cf467"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-6-14">
+</div>
+</li>
+
+<li><a id="orgc98030f"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-6-15">
+</div>
+</li>
+
+<li><a id="org5a0cc7c"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-6-16">
+</div>
+</li>
+
+<li><a id="org7cdecea"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-6-17">
+</div>
+</li>
+
+<li><a id="org827baf4"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-6-18">
+</div>
+</li>
+
+<li><a id="orge49d0b7"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-6-19">
+</div>
+</li>
+
+<li><a id="orgdee0830"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-6-20">
+</div>
+</li>
+
+<li><a id="org59ad013"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-6-21">
+</div>
+</li>
+
+<li><a id="org55756e8"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-6-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgb614798" class="outline-4">
+<h4 id="orgb614798"><span class="section-number-4">1.1.7</span> Chapter 6. Management and Leadership in Today's Organizations</h4>
+<div class="outline-text-4" id="text-1-1-7">
+</div>
+
+<ol class="org-ol">
+<li><a id="org2aa23d8"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-7-1">
+</div>
+</li>
+
+<li><a id="orga46138c"></a>6.1. The Role of Management*<br />
+<div class="outline-text-5" id="text-1-1-7-2">
+</div>
+</li>
+
+<li><a id="org161dfb6"></a>6.2. Planning*<br />
+<div class="outline-text-5" id="text-1-1-7-3">
+</div>
+</li>
+
+<li><a id="org3ed2610"></a>6.3. Organizing*<br />
+<div class="outline-text-5" id="text-1-1-7-4">
+</div>
+</li>
+
+<li><a id="orgd9896ab"></a>6.4. Leading, Guiding, and Motivating Others*<br />
+<div class="outline-text-5" id="text-1-1-7-5">
+</div>
+</li>
+
+<li><a id="org515a753"></a>6.5. Controlling*<br />
+<div class="outline-text-5" id="text-1-1-7-6">
+</div>
+</li>
+
+<li><a id="org42b76cc"></a>6.6. Managerial Roles*<br />
+<div class="outline-text-5" id="text-1-1-7-7">
+</div>
+</li>
+
+<li><a id="orgaf37f7b"></a>6.7. Managerial Skills*<br />
+<div class="outline-text-5" id="text-1-1-7-8">
+</div>
+</li>
+
+<li><a id="org15325de"></a>6.8. Trends in Management and Leadership*<br />
+<div class="outline-text-5" id="text-1-1-7-9">
+</div>
+</li>
+
+<li><a id="orgb0ce729"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-7-10">
+</div>
+</li>
+
+<li><a id="org019db8e"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-7-11">
+</div>
+</li>
+
+<li><a id="orgf8c3fb2"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-7-12">
+</div>
+</li>
+
+<li><a id="org3285653"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-7-13">
+</div>
+</li>
+
+<li><a id="org1e775b3"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-7-14">
+</div>
+</li>
+
+<li><a id="org2d0ecea"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-7-15">
+</div>
+</li>
+
+<li><a id="orgfe86788"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-7-16">
+</div>
+</li>
+
+<li><a id="org9847a8c"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-7-17">
+</div>
+</li>
+
+<li><a id="orgb583b9a"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-7-18">
+</div>
+</li>
+
+<li><a id="orga3b2a40"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-7-19">
+</div>
+</li>
+
+<li><a id="org0008b27"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-7-20">
+</div>
+</li>
+
+<li><a id="orgc8d40c4"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-7-21">
+</div>
+</li>
+
+<li><a id="orge11b59b"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-7-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgf950e87" class="outline-4">
+<h4 id="orgf950e87"><span class="section-number-4">1.1.8</span> Chapter 7. Designing Organizational Structures</h4>
+<div class="outline-text-4" id="text-1-1-8">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgb94953e"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-8-1">
+</div>
+</li>
+
+<li><a id="org2deee60"></a>7.1. Building Organizational Structures*<br />
+<div class="outline-text-5" id="text-1-1-8-2">
+</div>
+</li>
+
+<li><a id="org0766283"></a>7.2. Contemporary Structures*<br />
+<div class="outline-text-5" id="text-1-1-8-3">
+</div>
+</li>
+
+<li><a id="orgfd7ac6f"></a>7.3. Using Teams to Enhance Motivation and Performance*<br />
+<div class="outline-text-5" id="text-1-1-8-4">
+</div>
+</li>
+
+<li><a id="orgfb20434"></a>7.4. Authority—Establishing Organizational Relationships*<br />
+<div class="outline-text-5" id="text-1-1-8-5">
+</div>
+</li>
+
+<li><a id="orge424006"></a>7.5. Degree of Centralization*<br />
+<div class="outline-text-5" id="text-1-1-8-6">
+</div>
+</li>
+
+<li><a id="orgd2876ff"></a>7.6. Organizational Design Considerations*<br />
+<div class="outline-text-5" id="text-1-1-8-7">
+</div>
+</li>
+
+<li><a id="orgd680f17"></a>7.7. The Informal Organization*<br />
+<div class="outline-text-5" id="text-1-1-8-8">
+</div>
+</li>
+
+<li><a id="org2b3d722"></a>7.8. Trends in Organizational Structure*<br />
+<div class="outline-text-5" id="text-1-1-8-9">
+</div>
+</li>
+
+<li><a id="orgbef7384"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-8-10">
+</div>
+</li>
+
+<li><a id="orga612c42"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-8-11">
+</div>
+</li>
+
+<li><a id="org757affd"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-8-12">
+</div>
+</li>
+
+<li><a id="org57028af"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-8-13">
+</div>
+</li>
+
+<li><a id="orgdc67a63"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-8-14">
+</div>
+</li>
+
+<li><a id="org2a027e9"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-8-15">
+</div>
+</li>
+
+<li><a id="org273f2fd"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-8-16">
+</div>
+</li>
+
+<li><a id="org1092ead"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-8-17">
+</div>
+</li>
+
+<li><a id="org853e8af"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-8-18">
+</div>
+</li>
+
+<li><a id="org9e93175"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-8-19">
+</div>
+</li>
+
+<li><a id="org7a2199c"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-8-20">
+</div>
+</li>
+
+<li><a id="org1ef2312"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-8-21">
+</div>
+</li>
+
+<li><a id="org5c82533"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-8-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org8c8f5de" class="outline-4">
+<h4 id="org8c8f5de"><span class="section-number-4">1.1.9</span> Chapter 8. Managing Human Resources and Labor Relations</h4>
+<div class="outline-text-4" id="text-1-1-9">
+</div>
+
+<ol class="org-ol">
+<li><a id="org56b2232"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-9-1">
+</div>
+</li>
+
+<li><a id="orge27c633"></a>8.1. Achieving High Performance through Human Resources Management*<br />
+<div class="outline-text-5" id="text-1-1-9-2">
+</div>
+</li>
+
+<li><a id="orgc04dec0"></a>8.2. Employee Recruitment*<br />
+<div class="outline-text-5" id="text-1-1-9-3">
+</div>
+</li>
+
+<li><a id="org407c766"></a>8.3. Employee Selection*<br />
+<div class="outline-text-5" id="text-1-1-9-4">
+</div>
+</li>
+
+<li><a id="org5bbe1d2"></a>8.4. Employee Training and Development*<br />
+<div class="outline-text-5" id="text-1-1-9-5">
+</div>
+</li>
+
+<li><a id="org8a0852b"></a>8.5. Performance Planning and Evaluation*<br />
+<div class="outline-text-5" id="text-1-1-9-6">
+</div>
+</li>
+
+<li><a id="org090d36b"></a>8.6. Employee Compensation and Benefits*<br />
+<div class="outline-text-5" id="text-1-1-9-7">
+</div>
+</li>
+
+<li><a id="org6500595"></a>8.7. The Labor Relations Process*<br />
+<div class="outline-text-5" id="text-1-1-9-8">
+</div>
+</li>
+
+<li><a id="org2fbb5c6"></a>8.8. Managing Grievances and Conflicts*<br />
+<div class="outline-text-5" id="text-1-1-9-9">
+</div>
+</li>
+
+<li><a id="orgec88773"></a>8.9. Legal Environment of Human Resources and Labor Relations*<br />
+<div class="outline-text-5" id="text-1-1-9-10">
+</div>
+</li>
+
+<li><a id="org58046e2"></a>8.10. Trends in Human Resource Management and Labor Relations*<br />
+<div class="outline-text-5" id="text-1-1-9-11">
+</div>
+</li>
+
+<li><a id="org170cbb6"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-9-12">
+</div>
+</li>
+
+<li><a id="orga9926c3"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-9-13">
+</div>
+</li>
+
+<li><a id="orgd20d0cf"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-9-14">
+</div>
+</li>
+
+<li><a id="org97a46ad"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-9-15">
+</div>
+</li>
+
+<li><a id="org0054397"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-9-16">
+</div>
+</li>
+
+<li><a id="orge9821c2"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-9-17">
+</div>
+</li>
+
+<li><a id="org2049b8f"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-9-18">
+</div>
+</li>
+
+<li><a id="orgb75255b"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-9-19">
+</div>
+</li>
+
+<li><a id="orgb6ccf01"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-9-20">
+</div>
+</li>
+
+<li><a id="org95bed7f"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-9-21">
+</div>
+</li>
+
+<li><a id="orgf103a64"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-9-22">
+</div>
+</li>
+
+<li><a id="orge40c266"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-9-23">
+</div>
+</li>
+
+<li><a id="orgba5b723"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-9-24">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orge0c0064" class="outline-4">
+<h4 id="orge0c0064"><span class="section-number-4">1.1.10</span> Chapter 9. Motivating Employees</h4>
+<div class="outline-text-4" id="text-1-1-10">
+</div>
+
+<ol class="org-ol">
+<li><a id="org2b7b218"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-10-1">
+</div>
+</li>
+
+<li><a id="org25d773a"></a>9.1. Early Theories of Motivation*<br />
+<div class="outline-text-5" id="text-1-1-10-2">
+</div>
+</li>
+
+<li><a id="org3fb8dfb"></a>9.2. The Hawthorne Studies*<br />
+<div class="outline-text-5" id="text-1-1-10-3">
+</div>
+</li>
+
+<li><a id="orgf5cba95"></a>9.3. Maslow's Hierarchy of Needs*<br />
+<div class="outline-text-5" id="text-1-1-10-4">
+</div>
+</li>
+
+<li><a id="orgc36acd6"></a>9.4. McGregor's Theories X and Y*<br />
+<div class="outline-text-5" id="text-1-1-10-5">
+</div>
+</li>
+
+<li><a id="org85d1e6a"></a>9.5. Herzberg's Motivator-Hygiene Theory*<br />
+<div class="outline-text-5" id="text-1-1-10-6">
+</div>
+</li>
+
+<li><a id="org2a3a06f"></a>9.6. Contemporary Views on Motivation*<br />
+<div class="outline-text-5" id="text-1-1-10-7">
+</div>
+</li>
+
+<li><a id="orgfe6f706"></a>9.7. From Motivation Theory to Application*<br />
+<div class="outline-text-5" id="text-1-1-10-8">
+</div>
+</li>
+
+<li><a id="orgd20e470"></a>9.8. Trends in Employee Motivation*<br />
+<div class="outline-text-5" id="text-1-1-10-9">
+</div>
+</li>
+
+<li><a id="org972ec67"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-10-10">
+</div>
+</li>
+
+<li><a id="orged9d6cd"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-10-11">
+</div>
+</li>
+
+<li><a id="org56975b5"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-10-12">
+</div>
+</li>
+
+<li><a id="orgae4d129"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-10-13">
+</div>
+</li>
+
+<li><a id="org325174a"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-10-14">
+</div>
+</li>
+
+<li><a id="org1cb969d"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-10-15">
+</div>
+</li>
+
+<li><a id="orgb96c0de"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-10-16">
+</div>
+</li>
+
+<li><a id="org380b58b"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-10-17">
+</div>
+</li>
+
+<li><a id="org7c16289"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-10-18">
+</div>
+</li>
+
+<li><a id="orgd6d2867"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-10-19">
+</div>
+</li>
+
+<li><a id="org73dca15"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-10-20">
+</div>
+</li>
+
+<li><a id="org7f1b13b"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-10-21">
+</div>
+</li>
+
+<li><a id="orgc9c72af"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-10-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org0aed6cb" class="outline-4">
+<h4 id="org0aed6cb"><span class="section-number-4">1.1.11</span> Chapter 10. Achieving World-Class Operations Management</h4>
+<div class="outline-text-4" id="text-1-1-11">
+</div>
+
+<ol class="org-ol">
+<li><a id="org50497ad"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-11-1">
+</div>
+</li>
+
+<li><a id="org2b6f349"></a>10.1. Production and Operations Management—An Overview*<br />
+<div class="outline-text-5" id="text-1-1-11-2">
+</div>
+</li>
+
+<li><a id="org3a22358"></a>10.2. The Production Process: How Do We Make It?*<br />
+<div class="outline-text-5" id="text-1-1-11-3">
+</div>
+</li>
+
+<li><a id="org299f390"></a>10.3. Location, Location, Location: Where Do We Make It?*<br />
+<div class="outline-text-5" id="text-1-1-11-4">
+</div>
+</li>
+
+<li><a id="orgbd35d23"></a>10.4. Pulling It Together: Resource Planning*<br />
+<div class="outline-text-5" id="text-1-1-11-5">
+</div>
+</li>
+
+<li><a id="org768b186"></a>10.5. Production and Operations Control*<br />
+<div class="outline-text-5" id="text-1-1-11-6">
+</div>
+</li>
+
+<li><a id="org5cb791d"></a>10.6. Looking for a Better Way: Improving Production and Operations*<br />
+<div class="outline-text-5" id="text-1-1-11-7">
+</div>
+</li>
+
+<li><a id="org36da9d6"></a>10.7. Transforming the Factory Floor with Technology*<br />
+<div class="outline-text-5" id="text-1-1-11-8">
+</div>
+</li>
+
+<li><a id="orgdc996b7"></a>10.8. Trends in Production and Operations Management*<br />
+<div class="outline-text-5" id="text-1-1-11-9">
+</div>
+</li>
+
+<li><a id="orgc9f4276"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-11-10">
+</div>
+</li>
+
+<li><a id="org218caf2"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-11-11">
+</div>
+</li>
+
+<li><a id="org173c9e5"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-11-12">
+</div>
+</li>
+
+<li><a id="orgc8cf55b"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-11-13">
+</div>
+</li>
+
+<li><a id="org46d4af2"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-11-14">
+</div>
+</li>
+
+<li><a id="org3dfa472"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-11-15">
+</div>
+</li>
+
+<li><a id="org699b8cb"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-11-16">
+</div>
+</li>
+
+<li><a id="orgef5162b"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-11-17">
+</div>
+</li>
+
+<li><a id="orgfcf4552"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-11-18">
+</div>
+</li>
+
+<li><a id="org001a012"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-11-19">
+</div>
+</li>
+
+<li><a id="orgc31e468"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-11-20">
+</div>
+</li>
+
+<li><a id="org5d698b7"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-11-21">
+</div>
+</li>
+
+<li><a id="orgdaa1fb1"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-11-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgf0a16aa" class="outline-4">
+<h4 id="orgf0a16aa"><span class="section-number-4">1.1.12</span> Chapter 11. Creating Products and Pricing Strategies to Meet Customers' Needs</h4>
+<div class="outline-text-4" id="text-1-1-12">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgefe36c2"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-12-1">
+</div>
+</li>
+
+<li><a id="org7491503"></a>11.1. The Marketing Concept*<br />
+<div class="outline-text-5" id="text-1-1-12-2">
+</div>
+</li>
+
+<li><a id="orgc9a7fa6"></a>11.2. Creating a Marketing Strategy*<br />
+<div class="outline-text-5" id="text-1-1-12-3">
+</div>
+</li>
+
+<li><a id="org0cc03d6"></a>11.3. Developing a Marketing Mix*<br />
+<div class="outline-text-5" id="text-1-1-12-4">
+</div>
+</li>
+
+<li><a id="orgafe6297"></a>11.4. Buyer Behavior*<br />
+<div class="outline-text-5" id="text-1-1-12-5">
+</div>
+</li>
+
+<li><a id="org7d85aaa"></a>11.5. Market Segmentation*<br />
+<div class="outline-text-5" id="text-1-1-12-6">
+</div>
+</li>
+
+<li><a id="orge47700d"></a>11.6. What Is a Product?*<br />
+<div class="outline-text-5" id="text-1-1-12-7">
+</div>
+</li>
+
+<li><a id="org46597c2"></a>11.7. Creating Products That Deliver Value*<br />
+<div class="outline-text-5" id="text-1-1-12-8">
+</div>
+</li>
+
+<li><a id="orgf0ce386"></a>11.8. The Product Life Cycle*<br />
+<div class="outline-text-5" id="text-1-1-12-9">
+</div>
+</li>
+
+<li><a id="org00fbf53"></a>11.9. Pricing Strategies and Future Trends*<br />
+<div class="outline-text-5" id="text-1-1-12-10">
+</div>
+</li>
+
+<li><a id="orgc4c4c91"></a>11.10. Trends in Developing Products and Pricing*<br />
+<div class="outline-text-5" id="text-1-1-12-11">
+</div>
+</li>
+
+<li><a id="org567e81e"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-12-12">
+</div>
+</li>
+
+<li><a id="org259853f"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-12-13">
+</div>
+</li>
+
+<li><a id="orgc8d75eb"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-12-14">
+</div>
+</li>
+
+<li><a id="orgf5ffd2b"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-12-15">
+</div>
+</li>
+
+<li><a id="org2e64a4b"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-12-16">
+</div>
+</li>
+
+<li><a id="orgbd23e0a"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-12-17">
+</div>
+</li>
+
+<li><a id="org39d75ae"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-12-18">
+</div>
+</li>
+
+<li><a id="orgb49168a"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-12-19">
+</div>
+</li>
+
+<li><a id="org859c8c9"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-12-20">
+</div>
+</li>
+
+<li><a id="org1b091e3"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-12-21">
+</div>
+</li>
+
+<li><a id="org54a9705"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-12-22">
+</div>
+</li>
+
+<li><a id="org81a2467"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-12-23">
+</div>
+</li>
+
+<li><a id="orgd9b9c8b"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-12-24">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org946313b" class="outline-4">
+<h4 id="org946313b"><span class="section-number-4">1.1.13</span> Chapter 12. Distributing and Promoting Products and Services</h4>
+<div class="outline-text-4" id="text-1-1-13">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgecd811e"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-13-1">
+</div>
+</li>
+
+<li><a id="orgb0af835"></a>12.1. The Nature and Functions of Distribution (Place)*<br />
+<div class="outline-text-5" id="text-1-1-13-2">
+</div>
+</li>
+
+<li><a id="org78dbaad"></a>12.2. Wholesaling*<br />
+<div class="outline-text-5" id="text-1-1-13-3">
+</div>
+</li>
+
+<li><a id="org79d6aa4"></a>12.3. The Competitive World of Retailing*<br />
+<div class="outline-text-5" id="text-1-1-13-4">
+</div>
+</li>
+
+<li><a id="org4b722cb"></a>12.4. Using Supply Chain Management to Increase Efficiency and Customer Satisfaction*<br />
+<div class="outline-text-5" id="text-1-1-13-5">
+</div>
+</li>
+
+<li><a id="org222ff17"></a>12.5. Promotion Strategy*<br />
+<div class="outline-text-5" id="text-1-1-13-6">
+</div>
+</li>
+
+<li><a id="org0be95bf"></a>12.6. The Huge Impact of Advertising*<br />
+<div class="outline-text-5" id="text-1-1-13-7">
+</div>
+</li>
+
+<li><a id="org051004c"></a>12.7. The Importance of Personal Selling*<br />
+<div class="outline-text-5" id="text-1-1-13-8">
+</div>
+</li>
+
+<li><a id="orgb449085"></a>12.8. Sales Promotion*<br />
+<div class="outline-text-5" id="text-1-1-13-9">
+</div>
+</li>
+
+<li><a id="org25288dd"></a>12.9. Public Relations Helps Build Goodwill*<br />
+<div class="outline-text-5" id="text-1-1-13-10">
+</div>
+</li>
+
+<li><a id="org4876b2f"></a>12.10. Trends in Social Media*<br />
+<div class="outline-text-5" id="text-1-1-13-11">
+</div>
+</li>
+
+<li><a id="orgffcbf3f"></a>12.11. Trends in E-Commerce*<br />
+<div class="outline-text-5" id="text-1-1-13-12">
+</div>
+</li>
+
+<li><a id="org00e18e4"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-13-13">
+</div>
+</li>
+
+<li><a id="org686ae35"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-13-14">
+</div>
+</li>
+
+<li><a id="org3bcab3b"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-13-15">
+</div>
+</li>
+
+<li><a id="org05298ac"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-13-16">
+</div>
+</li>
+
+<li><a id="org5013616"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-13-17">
+</div>
+</li>
+
+<li><a id="orgf5bb385"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-13-18">
+</div>
+</li>
+
+<li><a id="org70c80d4"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-13-19">
+</div>
+</li>
+
+<li><a id="org1759eb6"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-13-20">
+</div>
+</li>
+
+<li><a id="org83c6b7e"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-13-21">
+</div>
+</li>
+
+<li><a id="org453619d"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-13-22">
+</div>
+</li>
+
+<li><a id="orgdc252ae"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-13-23">
+</div>
+</li>
+
+<li><a id="org6b75a6e"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-13-24">
+</div>
+</li>
+
+<li><a id="org9bea626"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-13-25">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org4eeaf3e" class="outline-4">
+<h4 id="org4eeaf3e"><span class="section-number-4">1.1.14</span> Chapter 13. Using Technology to Manage Information</h4>
+<div class="outline-text-4" id="text-1-1-14">
+</div>
+
+<ol class="org-ol">
+<li><a id="org1c34f9d"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-14-1">
+</div>
+</li>
+
+<li><a id="org7df1c85"></a>13.1. Transforming Businesses through Information*<br />
+<div class="outline-text-5" id="text-1-1-14-2">
+</div>
+</li>
+
+<li><a id="org3aded13"></a>13.2. Linking Up: Computer Networks*<br />
+<div class="outline-text-5" id="text-1-1-14-3">
+</div>
+</li>
+
+<li><a id="org162ddf4"></a>13.3. Management Information Systems*<br />
+<div class="outline-text-5" id="text-1-1-14-4">
+</div>
+</li>
+
+<li><a id="org9e42bb3"></a>13.4. Technology Management and Planning*<br />
+<div class="outline-text-5" id="text-1-1-14-5">
+</div>
+</li>
+
+<li><a id="orgb0f4135"></a>13.5. Protecting Computers and Information*<br />
+<div class="outline-text-5" id="text-1-1-14-6">
+</div>
+</li>
+
+<li><a id="orgd3130d4"></a>13.6. Trends in Information Technology*<br />
+<div class="outline-text-5" id="text-1-1-14-7">
+</div>
+</li>
+
+<li><a id="org2ae91f1"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-14-8">
+</div>
+</li>
+
+<li><a id="org4dc915a"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-14-9">
+</div>
+</li>
+
+<li><a id="orgea34337"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-14-10">
+</div>
+</li>
+
+<li><a id="orgd20e7f3"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-14-11">
+</div>
+</li>
+
+<li><a id="org557aae1"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-14-12">
+</div>
+</li>
+
+<li><a id="org5a72d8e"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-14-13">
+</div>
+</li>
+
+<li><a id="orgfb799f7"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-14-14">
+</div>
+</li>
+
+<li><a id="orgad21fe2"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-14-15">
+</div>
+</li>
+
+<li><a id="orgcef8edf"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-14-16">
+</div>
+</li>
+
+<li><a id="orga7e4ed0"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-14-17">
+</div>
+</li>
+
+<li><a id="orgc483e22"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-14-18">
+</div>
+</li>
+
+<li><a id="org48c1446"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-14-19">
+</div>
+</li>
+
+<li><a id="org9574481"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-14-20">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org846562f" class="outline-4">
+<h4 id="org846562f"><span class="section-number-4">1.1.15</span> Chapter 14. Using Financial Information and Accounting</h4>
+<div class="outline-text-4" id="text-1-1-15">
+</div>
+
+<ol class="org-ol">
+<li><a id="orgafcc9a8"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-15-1">
+</div>
+</li>
+
+<li><a id="orgcee2f3d"></a>14.1. Accounting: More than Numbers*<br />
+<div class="outline-text-5" id="text-1-1-15-2">
+</div>
+</li>
+
+<li><a id="org8d0b68d"></a>14.2. The Accounting Profession*<br />
+<div class="outline-text-5" id="text-1-1-15-3">
+</div>
+</li>
+
+<li><a id="org0a519df"></a>14.3. Basic Accounting Procedures*<br />
+<div class="outline-text-5" id="text-1-1-15-4">
+</div>
+</li>
+
+<li><a id="org11670f3"></a>14.4. The Balance Sheet*<br />
+<div class="outline-text-5" id="text-1-1-15-5">
+</div>
+</li>
+
+<li><a id="orgacaa74c"></a>14.5. The Income Statement*<br />
+<div class="outline-text-5" id="text-1-1-15-6">
+</div>
+</li>
+
+<li><a id="org78db25f"></a>14.6. The Statement of Cash Flows*<br />
+<div class="outline-text-5" id="text-1-1-15-7">
+</div>
+</li>
+
+<li><a id="org366aa02"></a>14.7. Analyzing Financial Statements*<br />
+<div class="outline-text-5" id="text-1-1-15-8">
+</div>
+</li>
+
+<li><a id="orge15b65f"></a>14.8. Trends in Accounting*<br />
+<div class="outline-text-5" id="text-1-1-15-9">
+</div>
+</li>
+
+<li><a id="org502f05a"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-15-10">
+</div>
+</li>
+
+<li><a id="org41b0993"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-15-11">
+</div>
+</li>
+
+<li><a id="org298b97b"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-15-12">
+</div>
+</li>
+
+<li><a id="org39d8034"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-15-13">
+</div>
+</li>
+
+<li><a id="org5d66de6"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-15-14">
+</div>
+</li>
+
+<li><a id="org43180b1"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-15-15">
+</div>
+</li>
+
+<li><a id="org3c698ff"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-15-16">
+</div>
+</li>
+
+<li><a id="org0c75c18"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-15-17">
+</div>
+</li>
+
+<li><a id="org8cbd8b0"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-15-18">
+</div>
+</li>
+
+<li><a id="org811f5ba"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-15-19">
+</div>
+</li>
+
+<li><a id="org15d95f8"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-15-20">
+</div>
+</li>
+
+<li><a id="org3ffa7d7"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-15-21">
+</div>
+</li>
+
+<li><a id="org8319ea7"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-15-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org9998d67" class="outline-4">
+<h4 id="org9998d67"><span class="section-number-4">1.1.16</span> Chapter 15. Understanding Money and Financial Institutions</h4>
+<div class="outline-text-4" id="text-1-1-16">
+</div>
+
+<ol class="org-ol">
+<li><a id="org6aeca8b"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-16-1">
+</div>
+</li>
+
+<li><a id="org6ded332"></a>15.1. Show Me the Money*<br />
+<div class="outline-text-5" id="text-1-1-16-2">
+</div>
+</li>
+
+<li><a id="org2d27dfc"></a>15.2. The Federal Reserve System*<br />
+<div class="outline-text-5" id="text-1-1-16-3">
+</div>
+</li>
+
+<li><a id="orge7644d1"></a>15.3. U.S. Financial Institutions*<br />
+<div class="outline-text-5" id="text-1-1-16-4">
+</div>
+</li>
+
+<li><a id="org8a55f07"></a>15.4. Insuring Bank Deposits*<br />
+<div class="outline-text-5" id="text-1-1-16-5">
+</div>
+</li>
+
+<li><a id="org35bcf6a"></a>15.5. International Banking*<br />
+<div class="outline-text-5" id="text-1-1-16-6">
+</div>
+</li>
+
+<li><a id="org5692c51"></a>15.6. Trends in Financial Institutions*<br />
+<div class="outline-text-5" id="text-1-1-16-7">
+</div>
+</li>
+
+<li><a id="orgf901887"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-16-8">
+</div>
+</li>
+
+<li><a id="orgf987282"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-16-9">
+</div>
+</li>
+
+<li><a id="orga7b3495"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-16-10">
+</div>
+</li>
+
+<li><a id="org755c9c4"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-16-11">
+</div>
+</li>
+
+<li><a id="orgf15ac6b"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-16-12">
+</div>
+</li>
+
+<li><a id="org1dfefa9"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-16-13">
+</div>
+</li>
+
+<li><a id="org521ac02"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-16-14">
+</div>
+</li>
+
+<li><a id="org2b48d23"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-16-15">
+</div>
+</li>
+
+<li><a id="org3edfc1e"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-16-16">
+</div>
+</li>
+
+<li><a id="org0d462f9"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-16-17">
+</div>
+</li>
+
+<li><a id="org8445fc7"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-16-18">
+</div>
+</li>
+
+<li><a id="org29bc8b4"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-16-19">
+</div>
+</li>
+
+<li><a id="org77b8296"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-16-20">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org0658572" class="outline-4">
+<h4 id="org0658572"><span class="section-number-4">1.1.17</span> Chapter 16. Understanding Financial Management and Securities Markets</h4>
+<div class="outline-text-4" id="text-1-1-17">
+</div>
+
+<ol class="org-ol">
+<li><a id="org5f4d168"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-17-1">
+</div>
+</li>
+
+<li><a id="org5050724"></a>16.1. The Role of Finance and the Financial Manager*<br />
+<div class="outline-text-5" id="text-1-1-17-2">
+</div>
+</li>
+
+<li><a id="orgf15b5d9"></a>16.2. How Organizations Use Funds*<br />
+<div class="outline-text-5" id="text-1-1-17-3">
+</div>
+</li>
+
+<li><a id="orga89a5cb"></a>16.3. Obtaining Short-Term Financing*<br />
+<div class="outline-text-5" id="text-1-1-17-4">
+</div>
+</li>
+
+<li><a id="org6fd7df6"></a>16.4. Raising Long-Term Financing*<br />
+<div class="outline-text-5" id="text-1-1-17-5">
+</div>
+</li>
+
+<li><a id="org9764854"></a>16.5. Equity Financing*<br />
+<div class="outline-text-5" id="text-1-1-17-6">
+</div>
+</li>
+
+<li><a id="orgf305aed"></a>16.6. Securities Markets*<br />
+<div class="outline-text-5" id="text-1-1-17-7">
+</div>
+</li>
+
+<li><a id="orgb5cb62d"></a>16.7. Buying and Selling at Securities Exchanges*<br />
+<div class="outline-text-5" id="text-1-1-17-8">
+</div>
+</li>
+
+<li><a id="org48532e2"></a>16.8. Trends in Financial Management and Securities Markets*<br />
+<div class="outline-text-5" id="text-1-1-17-9">
+</div>
+</li>
+
+<li><a id="org9419e47"></a>Glossary<br />
+<div class="outline-text-5" id="text-1-1-17-10">
+</div>
+</li>
+
+<li><a id="org3b61ec7"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-17-11">
+</div>
+</li>
+
+<li><a id="orgb05d5da"></a>Summary of Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-17-12">
+</div>
+</li>
+
+<li><a id="org2b64562"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-17-13">
+</div>
+</li>
+
+<li><a id="orgffe9de9"></a>Preparing for Tomorrow's Workplace Skills<br />
+<div class="outline-text-5" id="text-1-1-17-14">
+</div>
+</li>
+
+<li><a id="orga7b06bb"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-17-15">
+</div>
+</li>
+
+<li><a id="org0480829"></a>Ethics Activity<br />
+<div class="outline-text-5" id="text-1-1-17-16">
+</div>
+</li>
+
+<li><a id="org080c3d2"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-17-17">
+</div>
+</li>
+
+<li><a id="org842ccce"></a>Working the Net<br />
+<div class="outline-text-5" id="text-1-1-17-18">
+</div>
+</li>
+
+<li><a id="org4f43270"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-17-19">
+</div>
+</li>
+
+<li><a id="org29f7e82"></a>Critical Thinking Case<br />
+<div class="outline-text-5" id="text-1-1-17-20">
+</div>
+</li>
+
+<li><a id="orgc322093"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-17-21">
+</div>
+</li>
+
+<li><a id="org0e65126"></a>Hot Links Address Book<br />
+<div class="outline-text-5" id="text-1-1-17-22">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org44435ad" class="outline-4">
+<h4 id="org44435ad"><span class="section-number-4">1.1.18</span> Chapter 17. Your Career in Business</h4>
+<div class="outline-text-4" id="text-1-1-18">
+</div>
+
+<ol class="org-ol">
+<li><a id="org1deab68"></a>Introduction*<br />
+<div class="outline-text-5" id="text-1-1-18-1">
+</div>
+</li>
+
+<li><a id="orgbd446da"></a>17.1. Learn the Basics of Business*<br />
+<div class="outline-text-5" id="text-1-1-18-2">
+</div>
+</li>
+
+<li><a id="org492f31a"></a>17.2. Developing Interpersonal Skills Is Key to Your Success*<br />
+<div class="outline-text-5" id="text-1-1-18-3">
+</div>
+</li>
+
+<li><a id="orgd20f3ef"></a>17.3. Make Your Future Happen: Learn to Plan*<br />
+<div class="outline-text-5" id="text-1-1-18-4">
+</div>
+</li>
+
+<li><a id="orgaaac65a"></a>17.4. Going to College Is an Opportunity of a Lifetime—Never Drop Out*<br />
+<div class="outline-text-5" id="text-1-1-18-5">
+</div>
+</li>
+
+<li><a id="orge8ad2ec"></a>17.5. Get Your Career Off on the Right Track*<br />
+<div class="outline-text-5" id="text-1-1-18-6">
+</div>
+</li>
+
+<li><a id="org6aa2525"></a>17.6. Self-Test Scoring Guidelines*<br />
+<div class="outline-text-5" id="text-1-1-18-7">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgdb79f44" class="outline-4">
+<h4 id="orgdb79f44"><span class="section-number-4">1.1.19</span> Appendix A. Understanding the Legal and Tax Environment*</h4>
+<div class="outline-text-4" id="text-1-1-19">
+</div>
+
+<ol class="org-ol">
+<li><a id="org711617a"></a>A.1. Learning Outcomes<br />
+<div class="outline-text-5" id="text-1-1-19-1">
+</div>
+</li>
+
+<li><a id="org0d75339"></a>A.2. Understanding the Legal Environment<br />
+<div class="outline-text-5" id="text-1-1-19-2">
+</div>
+</li>
+
+<li><a id="orgd64bbd8"></a>A.3. Contract Law<br />
+<div class="outline-text-5" id="text-1-1-19-3">
+</div>
+</li>
+
+<li><a id="orgb43e912"></a>A.4. Understanding the Tax Environment of Business<br />
+<div class="outline-text-5" id="text-1-1-19-4">
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgf307e40" class="outline-4">
+<h4 id="orgf307e40"><span class="section-number-4">1.1.20</span> References</h4>
+<div class="outline-text-4" id="text-1-1-20">
+</div>
+</div>
+
+<div id="outline-container-orgd50494e" class="outline-4">
+<h4 id="orgd50494e"><span class="section-number-4">1.1.21</span> Index</h4>
+<div class="outline-text-4" id="text-1-1-21">
+</div>
+</div>
+
+<div id="outline-container-org51b6572" class="outline-4">
+<h4 id="org51b6572"><span class="section-number-4">1.1.22</span> Index</h4>
+<div class="outline-text-4" id="text-1-1-22">
+</div>
+</div>
+
+<div id="outline-container-org1a4691f" class="outline-4">
+<h4 id="org1a4691f"><span class="section-number-4">1.1.23</span> Blank Page</h4>
+<div class="outline-text-4" id="text-1-1-23">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2020-09-08 Tue 15:21</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

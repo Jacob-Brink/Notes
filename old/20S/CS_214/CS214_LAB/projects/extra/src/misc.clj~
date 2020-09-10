@@ -1,0 +1,61 @@
+;; misc.clj "test-drives" function misc-simple() and super-misc().
+;;
+;; Output: the average of a sequence of numbers.
+;;
+;; Usage: clojure -m misc
+;;
+;; Begun by: Dr. Adams, CS 214 at Calvin College.
+;; Completed by: Jacob Brink
+;; Date: 5/5/2020
+;; Lab: 12
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(ns misc)
+
+;; misc function
+(defn member? [listA item]
+  (if (= (count listA) 1)
+    (conj miscList (first listA)) ;;end recursion by returning miscList with first number (really last number in original listA) to beginning of miscList
+    (misc-simple (rest listA) (conj miscList (first listA)))         
+    )
+  )
+
+
+;; super-misc function
+(defn super-misc [listA miscList]
+  (let [item
+        (if (list? (first listA))
+               (super-misc (first listA) '())
+               (first listA)
+               )
+
+        ]
+    (if (= (count listA) 1)
+      (conj miscList item) ;;end recursion by returning miscList with first number (really last number in original listA) to beginning of miscList
+      (super-misc (rest listA) (conj miscList item))         
+      )
+    
+    )
+  
+  )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; main function to test functions sum() and average()
+;; Output: the sum and average of some test vectors.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defn -main []
+  (loop [ meta '(
+                (12 3 4 5)
+                ((4 5) 6 7 8)
+                (a b (c d) (e (f g)))
+                )]
+    (when (not (empty? meta))
+      (print "Original List Is " (first meta))
+      (print "\nMiscd List Is " (misc-simple (first meta) '()))
+     (print "\nSuper Miscd List Is " (super-misc (first meta) '()))
+      (print "\n\n")
+      (recur (rest meta))          
+      )
+    )
+
+  ) 

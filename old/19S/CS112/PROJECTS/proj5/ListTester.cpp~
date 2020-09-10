@@ -1,0 +1,543 @@
+/* ListTester.cpp defines the test methods for class List.
+ * Student: Jacob Brink
+ * Date: 3/5/2019
+ * By: Joel Adams, for CS 112 at Calvin College.
+ */
+
+#include "ListTester.h" // ListTester
+#include "List.h"       // List
+#include <iostream>     // cin, cout
+#include <cassert>      // assert()
+#include <cstdlib>      // exit()
+#include <stdexcept>    // underflow_error
+#include <fstream>      // read files
+
+typedef double Item;
+using namespace std;
+
+void ListTester::runTests() {
+	cout << "Running List<int> tests..." << endl;
+	testDefaultConstructor();
+	testNodeDefaultConstructor();
+	testNodeExplicitConstructor();
+	testAppend();
+	testDestructor();
+	testCopyConstructor();
+	testAssignment();
+    testEquality();
+    testStreamInput();
+    testStreamOutput();
+    testFileInput();
+    testFileOutput();
+    testPrepend();
+    testSearch();
+    testInsertion();
+    testDeletion();
+	cout << "All tests passed!" << endl;
+}
+
+void ListTester::testDefaultConstructor() {
+	cout << "Testing List<int> default constructor... " << flush;
+	List<int> aList;
+	assert( aList.mySize == 0 );
+	assert( aList.myFirst == NULL );
+	assert( aList.myLast == NULL );
+	cout << "Passed!" << endl;
+}
+
+void ListTester::testNodeDefaultConstructor() {
+	cout << "Testing Node default constructor... " << flush;
+	List<Item>::Node aNode;
+	assert( aNode.myItem == Item() );
+	assert( aNode.myNext == NULL );
+	cout << "Passed!" << endl;
+}
+
+void ListTester::testNodeExplicitConstructor() {
+	cout << "Testing Node explicit constructor... " << flush;
+	List<int>::Node n1(11, NULL);
+	assert( n1.myItem == 11 );
+	assert( n1.myNext == NULL );
+	cout << " 1 " << flush;
+
+	List<int>::Node *n3 = new List<int>::Node(33, NULL);
+	List<int>::Node n2(22, n3);
+	assert( n2.myItem == 22 );
+	assert( n2.myNext == n3 );
+	cout << " 2 " << flush;
+	cout << "Passed!" << endl;
+}
+
+void ListTester::testAppend() {
+	cout << "Testing append()... " << flush;
+	// empty List
+	List<int> aList;
+	assert( aList.getSize() == 0 );
+	assert( aList.myFirst == NULL );
+	assert( aList.myLast == NULL );
+	try {
+		aList.getFirst();
+		cerr << "getFirst() worked on empty list" << endl;
+		exit(1);
+	} catch (underflow_error&) {
+		cout << " 0a " << flush;
+	}
+	try {
+		aList.getLast();
+		cerr << "getLast() worked on empty list" << endl;
+		exit(1);
+	} catch (underflow_error&) {
+		cout << " 0b " << flush;
+	}
+	// append to empty list
+	aList.append(11);
+	assert( aList.getSize() == 1 );
+	assert( aList.myFirst != NULL );
+	assert( aList.myLast == aList.myFirst );
+	assert( aList.getFirst() == 11 );
+	assert( aList.getLast() == 11 );
+	assert( aList.myFirst->myNext == NULL );
+	cout << " 1 " << flush;
+	// append to a list containing 1 Item
+	aList.append(22);
+	assert( aList.getSize() == 2 );
+	assert( aList.myFirst != NULL );
+	assert( aList.myLast != NULL );
+	assert( aList.myFirst != aList.myLast );
+	assert( aList.getFirst() == 11 );
+	assert( aList.getLast() == 22 );
+	assert( aList.myFirst->myNext != NULL );
+	assert( aList.myLast->myNext == NULL );
+	cout << " 2 " << flush;
+	// append to a list containing 2 Items
+	aList.append(33);
+	assert( aList.getSize() == 3 );
+	assert( aList.myFirst != NULL );
+	assert( aList.myLast != NULL );
+	assert( aList.getFirst() == 11 );
+	assert( aList.getLast() == 33 );
+	assert( aList.myFirst->myNext->myItem == 22 );
+	assert( aList.myLast->myNext == NULL );
+	cout << " 3 " << flush;
+	cout << "Passed!" << endl;
+}
+
+void ListTester::testDestructor() {
+	cout << "Testing destructor... " << flush;
+	List<int> aList;
+	aList.~List();
+	assert( aList.getSize() == 0 );
+	assert( aList.myFirst == NULL );
+	assert( aList.myLast == NULL );
+	cout << " 1 " << flush;
+
+	aList.append(11);
+	aList.append(22);
+	aList.append(33);
+	aList.~List();
+	assert( aList.getSize() == 0 );
+	assert( aList.myFirst == NULL );
+	assert( aList.myLast == NULL );
+	cout << " 2 " << flush;
+	cout << "Passed!  But double-check for memory leaks!" << endl;
+}
+
+void ListTester::testCopyConstructor() {
+	cout << "Testing copy constructor... " << flush;
+	// copy empty list
+	List<int> list1;
+	List<int> list2(list1);
+	assert( list2.getSize() == 0 );
+	assert( list2.myFirst == NULL );
+	assert( list2.myLast == NULL );
+	cout << " 1 " << flush;
+
+	// copy nonempty list
+	List<int> list3;
+	list3.append(11);
+	list3.append(22);
+	list3.append(33);
+	List<int> list4(list3);
+	assert( list4.getSize() == 3 );
+	assert( list4.getFirst() == 11 );
+	assert( list4.getLast() == 33 );
+	assert( list4.myFirst->myNext->myItem == 22 );
+	assert( list4.myFirst != list3.myFirst );
+	assert( list4.myLast != list3.myLast );
+	cout << " 2 " << flush;
+	cout << "Passed!" << endl;
+}
+
+void ListTester::testAssignment() {
+	cout << "Testing assignment... " << flush;
+	// empty to empty assignment
+	List<int> list1;
+	List<int> list2;
+	list2 = list1;
+	assert( list2.getSize() == 0 );
+	assert( list2.myFirst == NULL );
+	assert( list2.myLast == NULL );
+	cout << " 1 " << flush;
+
+	// non-empty to empty assignment
+	List<int> list3;
+	list3.append(11);
+	list3.append(22);
+	list3.append(33);
+	List<int> list4;
+	list4 = list3;
+	assert( list4.getSize() == 3 );
+	assert( list4.getFirst() == 11 );
+	assert( list4.getLast() == 33 );
+	assert( list4.myFirst->myNext->myItem == 22 );
+      // check that nodes are distinct
+	assert( list4.myFirst != list3.myFirst );
+	assert( list4.myFirst->myNext != list3.myFirst->myNext );
+	assert( list4.myLast != list3.myLast );
+	cout << " 2 " << flush;
+
+	// equal-sized non-empty to non-empty assignment
+	List<int> list5;
+	list5.append(44);
+	list5.append(55);
+	list5.append(66);
+	list5 = list3;
+	assert( list5.getSize() == 3 );
+	assert( list5.getFirst() == 11 );
+	assert( list5.getLast() == 33 );
+	assert( list5.myFirst->myNext->myItem == 22 );
+      // check that nodes are distinct
+	assert( list5.myFirst != list3.myFirst );
+	assert( list5.myFirst->myNext != list3.myFirst->myNext );
+	assert( list5.myLast != list3.myLast );
+	cout << " 3 " << flush;
+
+	// empty to non-empty assignment
+	List<int> list6;
+	list6.append(44);
+	list6.append(55);
+	list6.append(66);
+	List<int> list7;
+	list6 = list7;
+	assert( list6.getSize() == 0 );
+	assert( list6.myFirst == NULL );
+	assert( list6.myLast == NULL );
+	cout << " 4 " << flush;
+
+	// unequal-sized non-empty to non-empty assignment
+	List<int> list8;
+	list8.append(44);
+	list8.append(55);
+	list8.append(66);
+	list8.append(77);
+	list8 = list3;
+	assert( list8.getSize() == 3 );
+	assert( list8.getFirst() == 11 );
+	assert( list8.getLast() == 33 );
+	assert( list8.myFirst->myNext->myItem == 22 );
+      // check that nodes are distinct
+	assert( list8.myFirst != list3.myFirst );
+	assert( list8.myFirst->myNext != list3.myFirst->myNext );
+	assert( list8.myLast != list3.myLast );
+	cout << " 5 " << flush;
+
+	// assignment chaining
+	List<int> list9;
+	list9.append(44);
+	list9.append(55);
+	list9.append(66);
+	list9.append(77);
+	List<int> list10;
+	list10 = list9 = list8;
+	assert( list10.getSize() == 3 );
+	assert( list10.getFirst() == 11 );
+	assert( list10.getLast() == 33 );
+	assert( list10.myFirst->myNext->myItem == 22 );
+	cout << " 6 " << flush;
+
+	// self-assignment (stupid, but possible)
+	List<int> list11;
+	list11.append(11);
+	list11.append(22);
+	list11.append(33);
+	list11 = list11;
+	assert( list11.getSize() == 3 );
+	assert( list11.getFirst() == 11 );
+	assert( list11.getLast() == 33 );
+	assert( list11.myFirst->myNext->myItem == 22 );
+	cout << " 7 " << flush;
+
+	cout << "Passed!  But double-check for memory leaks!" << endl;
+}
+
+
+//Test inequality and equality
+void ListTester::testEquality() {
+    cout << "Testing equality and inequality..." << flush;
+
+    //Not Equal
+    //Same size, different value
+    List<int> list1, list2;
+    list1.append(12);
+    list2.append(13);
+    assert(list1 != list2);
+    assert(not (list1 == list2));
+    cout << " 1a " << flush;
+
+    //Different size, same values
+    List<int> list3, list4;
+    list3.append(12);
+    list3.append(13);
+    list4.append(12);
+
+    assert(list3 != list4);
+    assert(not (list3 == list4));
+    cout << " 1b " << flush;
+
+    //empty and non empty
+    List<int> list5, list6;
+    list5.append(4);
+    assert(not (list5 == list6));
+    assert(list5 != list6);
+    cout << " 1c " << flush;
+
+    //Equal
+    //Same size, same values
+    List<int> list7, list8;
+    list3.append(12);
+    list4.append(12);
+    assert(not (list7 != list8));
+    assert(list7 == list8);
+    cout << " 2a " << flush;
+
+    //both empty
+    List<int> list9, list10;
+    assert(list9 == list10);
+    assert(not (list9 != list10));
+    cout << " 2b " << flush;
+
+    cout << "Passed!" << endl;
+}
+
+void ListTester::testStreamInput() {
+    cout << "Testing stream input..." << flush;
+    ifstream fin("listNum1.txt");
+	assert( fin.is_open() );
+
+    List<int> list1;
+
+    //Make sure it can work on non empty lists
+    list1.append(0);
+    list1.append(11);
+    list1.append(12);
+    list1.append(13);
+
+    //read
+    list1.readFrom(fin);
+
+    assert(list1.getSize() == 5);
+    List<int>::Node* oPtr = list1.myFirst;
+    int i = 1;
+    while (oPtr != NULL){
+        assert(oPtr->myItem == i);
+        oPtr = oPtr->myNext;
+        ++i;
+    }
+
+    fin.close();
+
+    cout << " 1 " << flush;
+
+    cout << "Passed!" << endl;
+}
+
+void ListTester::testStreamOutput() {
+    cout << "Testing Stream Output..." << flush;
+    //Non empty write to
+    ofstream fout("listNum2.txt");
+    assert( fout.is_open() );
+
+    List<int> l;
+    l.append(1);
+    l.append(3);
+    l.append(5);
+    l.writeTo(fout, " ");
+    fout.close();
+
+    //readfrom
+    ifstream fin("listNum2.txt");
+    assert( fin.is_open() );
+    List<int> a;
+    a.readFrom(fin);
+    fin.close();
+
+    //if lists are identical, success
+    assert(l == a);
+
+    cout << " 1 " << flush;
+
+    cout << "Passed!" << endl;
+}
+
+void ListTester::testFileInput() {
+    cout << "Testing File Input..." << flush;
+    List<int> l;
+    l.readFrom("listNum1.txt");
+    assert(l.getSize() == 14);
+    int i = 1;
+    for (List<int>::Node* oPtr = l.myFirst; oPtr != NULL; oPtr = oPtr->myNext) {
+        assert(oPtr->myItem == i);
+        ++i;
+    }
+    cout << " 1 " << flush;
+
+    cout << " Passed!" << endl;
+
+}
+
+void ListTester::testFileOutput() {
+    cout << "Testing File Output..." << flush;
+
+    List<int> original;
+    original.readFrom("listNum3.txt");
+    original.writeTo("listNum3.txt", "\n");
+    List<int> newList;
+    newList.readFrom("listNum3.txt");
+    assert(original == newList);
+    cout << " 1 " << flush;
+    cout << " Passed!" << endl;
+
+}
+
+void ListTester::testPrepend() {
+    cout << "Testing Prepend" << flush;
+
+    //empty case
+    List<int> l;
+    l.prepend(1);
+    assert(l.getSize() == 1);
+    assert(l.getFirst() == 1);
+    assert(l.getLast() == 1);
+    cout << " 1 " << flush;
+
+    //non empty case
+    List<int> a;
+    a.append(1);
+    a.append(2);
+    a.prepend(0);
+    assert(a.getSize() == 3);
+    assert(a.getFirst() == 0);
+    assert(a.myFirst->myNext->myItem == 1);
+    assert(a.getLast() == 2);
+    cout << " 2 " << flush;
+
+    cout << "Passed! :)" << endl;
+}
+
+void ListTester::testSearch() {
+    cout << "Testing search..." << flush;
+
+    //empty case
+    List<int> l;
+    assert(l.getIndexOf(1) == -1);
+    cout << " 1 " << flush;
+
+    //non empty case
+    List<int> a;
+    a.append(0);
+    a.append(1);
+    assert(a.getIndexOf(1) == 1);
+    cout << " 2 " << flush;
+
+    //non empty case with no index
+    assert(a.getIndexOf(33) == -1);
+    cout << " 3 " << flush;
+
+    cout << "Passed!" << endl;
+}
+
+void ListTester::testInsertion() {
+    cout << "Testing Insertion..." << flush;
+
+    //empty case
+    List<int> l;
+    l.insert(12, 1);
+    assert(l.getSize() == 1);
+    assert(l.getFirst() == l.getLast());
+    assert(l.getFirst() == 12);
+    cout << " 1 " << flush;
+
+    //non empty case middle
+    List<int> a;
+    a.append(44);
+    a.append(45);
+    a.append(46);
+    a.append(48);
+    a.insert(47, 3);
+    assert(a.getSize() == 5);
+    assert(a.getFirst() == 44);
+    assert(a.myFirst->myNext->myNext->myNext->myItem == 47);
+    assert(a.getLast() == 48);
+    cout << " 2 " << flush;
+
+    //prepend insertion
+    List<int> b;
+    b.append(2);
+    b.insert(0, -22);
+    b.insert(-1, -1);
+    assert(b.getSize() == 3);
+    assert(b.getFirst() == -1);
+    assert(b.myFirst->myNext->myItem == 0);
+    cout << " 3 " << flush;
+
+    //append insertion
+    List<int> c;
+    c.append(0);
+    c.insert(1, 200);
+    assert(c.getLast() == 1);
+    assert(c.getSize() == 2);
+    cout << " 4 " << flush;
+    cout << "Passed!" << endl;
+}
+
+void ListTester::testDeletion() {
+    cout << "Testing Deletion..." << flush;
+    //Create and populate new list
+    List<int> nonEmptyList;
+    unsigned listSize = 20;
+    for (unsigned i = 0; i < listSize; ++i) {
+        nonEmptyList.append(i);
+    }
+
+    //remove beginning
+    assert(nonEmptyList.remove(0) == 0);
+    assert(nonEmptyList.getFirst() == 1);
+    assert(nonEmptyList.getLast() == 19);
+    assert(nonEmptyList.getSize() == (listSize - 1));
+    cout << " 1 " << flush;
+
+    //remove end
+    assert(nonEmptyList.remove(20) == 19);
+    assert(nonEmptyList.getLast() == 18);
+    assert(nonEmptyList.getSize() == (listSize-2));
+    cout << " 2 " << flush;
+
+    //remove middle
+    assert(nonEmptyList.remove(2) == 3);
+    assert(nonEmptyList.getFirst() == 1);
+    assert(nonEmptyList.getSize() == (listSize-3));
+    assert(nonEmptyList.getIndexOf(4) == 2);
+    cout << " 3 " << flush;
+
+    //throws error on empty
+    List<int> emptyList;
+    try {
+		emptyList.remove(0);
+		assert(false);
+    } catch (underflow_error&) {
+		cout << " 4 " << flush;
+    }
+
+
+	cout << "Passed!" << endl;
+}

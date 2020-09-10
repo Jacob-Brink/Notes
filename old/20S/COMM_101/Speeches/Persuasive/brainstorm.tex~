@@ -1,0 +1,51 @@
+% Created 2020-04-10 Fri 20:56
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+\section{Topics}
+\label{sec:org7638531}
+\subsection{Why a "stay-at-home mom" should not be overlooked as a potential career for women\hfill{}\textsc{EDGY}}
+\label{sec:org7017ac8}
+\subsection{Why cyber security is important}
+\label{sec:org46de942}
+\subsection{Why addiction to social media is serious}
+\label{sec:org0b24860}
+\subsection{Why you should stop expecting privacy on online services you pay no money for}
+\label{sec:orgae212ce}
+\subsubsection{Online services need to make money and they can use personalized ads to make money}
+\label{sec:orge1a9407}
+\subsubsection{There is no such thing as a free lunch, the cost of "free" online services is your information}
+\label{sec:org7eafbd5}
+\subsection{Why subscription based streaming services with exclusive content legitamize piracy}
+\label{sec:org9ccbdd9}
+\subsubsection{To watch three shows or movies, you might have to setup a subscription with 2-3 streaming services how annoying}
+\label{sec:orge18e57d}
+\subsection{p}
+\label{sec:org6f1baf9}
+\end{document}

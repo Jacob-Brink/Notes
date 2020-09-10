@@ -1,0 +1,27 @@
+Bias in Sampling
+- Selection bias
+- Response bias
+- Wording of questions
+- survivorship bias (some cases are unavailable)
+- observer bias (unconcious projection of expectations on participants or data)
+
+Explanatory Response or Cause Effect
+
+Variables may be
+	  - association (when one changes, the other changes as well)
+	    - other variable (lurking or confounding) associated with both and explains
+	  - causation
+	    
+Types of Studies
+      - Observational Study
+      	* researchers do not control or assign values of any variable
+	* may be many lurking variables
+	* can't demonstrate causation
+      - Experimental Study
+      	* researchers do control values of variables of interest
+	* ways of controlling variables
+	  - randomizations (randomized experiment) (values of treatment variables assigned randomly)
+	  - avoids lurking variables
+	  - Matched pairs
+	    * (each case is observed repeatedly, with all possible treatments) twin studies
+	    * (cases are paired / grouped y important characteristics; on gets treatment

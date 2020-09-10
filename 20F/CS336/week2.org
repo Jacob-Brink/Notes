@@ -1,0 +1,30 @@
+#+STARTUP: hidestars
+* DOM: Document Object Model
+  SCHEDULED: <2020-09-09 Wed>
+** Structure
+
+The tree is rooted in the "document"
+
+The following example has document -> html -> body ...
+#+NAME: Structure of DOM
+#+BEGIN_SRC html
+  <html>
+   <body>
+   </body>
+  </html>
+#+END_SRC
+
+Javascript functions that deal with DOM
+#+NAME: Common functions for DOM
+#+BEGIN_SRC javascript
+  const d = document.getElementById('someID')
+  d.appendChild()
+  d.getElementsByClass('someClass')
+#+END_SRC
+
+All elements have functions that can call javascript code.
+#+NAME: Some javascript functions all elements share
+#+BEGIN_SRC javascript
+  onclick()
+  onmouseenter()
+#+END_SRC

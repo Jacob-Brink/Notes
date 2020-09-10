@@ -1,0 +1,41 @@
+#+TODO: TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
+#+TAGS: { @paraphrase(p)  @extrapolation(e) }
+#+STARTUP: indent
+* Plastics In Oceans
+** Corny Opening
+*** Imagine
+**** Many people when they think of plastics in the oceans may imagine that there are huge islands of garbage floating in the ocean.
+*** Those do not exist
+****  However, such islands do not exist. And yet, even though not visually obvious, the plastic pollution in the oceans is a massive problem with global consequences.
+** Introduction [[https://search.proquest.com/docview/1635009481/fulltextPDF/799F926C19BA4E88PQ/1?accountid=9844][Source]]
+*** Amount
+**** According to a BLANK study, it is estimated that there are over 250,000 tons of plastics on the surface of the oceans. :@paraphrase:
+**** The most common plastic found in the study was foamed polystrene, which is often used for packaging foam and packaging peanuts.
+*** Location
+**** Most plastics travel in the ocean to reside in ocean gyres, gulfs, closed bays, and seas according to the study.
+**** The study also found that although there are more sources of pollution in the Northern Hemisphere, the amounts of pollutants found were roughly the same in both hemispheres. This leads them to suspect that wind and currents may move plastics more than previously thought.
+***** This means that it is difficult to pinpoint the exact sources of pollution, and that pollution of one local area in the ocean can have global affects. :@extrapolation:
+** Types of Plastics
+*** Microplastics
+**** <5mm BLANK ADD (Size comparison)
+**** Northeastern professor Aron Stubbins believes that these microplastics are formed by the sunlight breaking down larger plastics [[https://setac.onlinelibrary.wiley.com/doi/full/10.1002/ieam.1913][source]]
+*** Macroplastics
+**** >5mm
+** Pollution Sources SOURCE BLANK
+*** Land-based Coastal Pollution
+**** responsible for 80% of marine pollution BLANK
+**** Of this source of pollution, over 90% go to the ocean floor, while about 1% is on the surface.
+***** When one considers that the first study estimated 250,000 tons on the ocean surface, the total amount of plastics in the ocean becomes astronomically large :@extrapolation:
+** Affects of Plastics
+*** Symptoms on Marine Life
+**** Murray R. Gregory from the University of Auckland notes that consumption by marine life of plastics can cause
+***** starvation / can't digest well
+***** worse reproduction
+***** maybe plastics attract toxins from water and transfer toxins to fish
+**** Dr. Boris Jovanovic, who has a PhD in "Toxicology and Fisheries Biology,"
+***** however states, it seems that plastics do not build up in the digestive track of marine animals. His reasoning is that in their data, older fish did not have more plastic inside them than do younger fish.
+***** suggests that additives in plastics not the basic material itself should be the main concern
+*** Affects on Humans
+**** While many may think that humans should be well off as long as they do not digest the marine life that is inundated with plastics, one must remember that a significant amount of the food for land livestock is fish derived food. As a result, most likely, some of the plastics in the oceans will make its way into our digestive systems. 
+**** An article in The Royal Society Publishing finds that certain chemical parts of plastics are found in humans. They also believe that these chemicals can negatively affect the endocrine system. [[https://royalsocietypublishing.org/doi/full/10.1098/rstb.2008.0281][source]]
+**** Across the studies I encountered, many of them suggested that there was simply not enough studies done on humans to really know the full extent of the affects of plastics in humans.

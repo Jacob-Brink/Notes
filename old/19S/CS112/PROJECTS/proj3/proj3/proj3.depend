@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1550699037 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\tester.cpp
+	"VecTester.h"
+	"Application.h"
+
+1550597652 c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\vectester.h
+	"Vec.h"
+
+1551137886 c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\vec.h
+	<iostream>
+
+1551137908 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\vec.cpp
+	"Vec.h"
+	<stdexcept>
+	<fstream>
+	<cassert>
+
+1550809295 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\vectester.cpp
+	"VecTester.h"
+	<iostream>
+	<fstream>
+	<cassert>
+	<cstdlib>
+	<stdexcept>
+
+1550714574 source:c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\application.cpp
+	"Application.h"
+
+1550698951 c:\users\jacob\documents\school\college\19s\cs112\projects\proj3\application.h
+	"Vec.h"
+

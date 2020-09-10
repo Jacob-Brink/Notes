@@ -1,0 +1,133 @@
+/*PlayList.cpp defines the PlayList methods.
+ *
+ * Student Name: jpb34
+ * Date: Feb 5, 2019
+ * Lab: 01
+ * Begun by: Joel Adams, for CS 112 at Calvin College.
+ */
+
+#include "PlayList.h"
+#include <fstream>	// ifstream
+#include <cassert>	// assert()
+using namespace std;
+
+/* PlayList constructor
+ * @param: fileName, a string
+ * Precondition: fileName contains the name of a playlist file.
+ */
+PlayList::PlayList(const string& fileName) {
+	// store fileName for future save() command
+	fName = fileName;
+
+	// open a stream to the playlist file
+	ifstream fin( fileName.c_str() );
+	assert( fin.is_open() );
+
+	// read each song and append it to mySongs
+	Song s;
+	string separator;
+	while (true) {
+	  s.readFrom(fin);
+	  if ( !fin ) { break; }
+	  getline(fin, separator);
+	  mySongs.push_back(s);
+	}
+
+	// close the stream
+	fin.close();
+}
+
+/* Retrieve length of the playlist
+ * Return: the number of songs in the playlist.
+ */
+unsigned PlayList::getNumSongs() const {
+	return mySongs.size();
+}
+
+/* Search by artist
+* @param: artist, a string.
+* Return: a vector containing all the Songs in mySongs by artist.
+*/
+vector<Song> PlayList::searchByArtist(const string& artist) const {
+  vector<Song> v;
+
+  for (unsigned i = 0; i < mySongs.size(); i++) {
+	 if ( mySongs[i].getArtist().find(artist) != string::npos ) {
+		v.push_back( mySongs[i] );
+	 }
+  }
+
+  return v;
+}
+
+/* Search by year
+* @param: unsigned int
+* Return: a vector containing all the Songs in mySongs in given year.
+*/
+vector<Song> PlayList::searchByYear(unsigned year) const {
+	vector<Song> v;
+
+	for (unsigned i = 0; i < mySongs.size(); i++) {
+		if ( mySongs[i].getYear() == year) {
+			v.push_back(mySongs[i]);
+		}
+	}
+
+	return v;
+};
+
+/* Search by title
+ * @param: string passed by const reference
+ * Return: a vector containing all the songs in mySongs that include the title
+ */
+
+vector<Song> PlayList::searchByTitlePhrase(const string& title) const {
+	vector<Song> v;
+
+	for (unsigned i = 0; i < mySongs.size(); i++) {
+		if ( mySongs[i].getTitle().find(title) != string::npos ) {
+			v.push_back(mySongs[i]);
+		}
+	}
+
+	return v;
+}
+
+/* Add a song
+ * @param: song object
+ * PostCondition: mySongs will include given song object
+ */
+
+ void PlayList::addSong(const Song& newSong) {
+	 mySongs.push_back(newSong);
+ }
+
+ /* Remove a song
+  * @param: song object to remove
+  * PostCondition: mySongs will no longer include given song object
+  */
+ void PlayList::removeSong(const Song& aSong) {
+	 for (unsigned i = 0; i < mySongs.size(); i++) {
+		 if (mySongs[i] == aSong) {
+			 mySongs.erase(mySongs.begin() + i);
+		 }
+	 }
+}
+
+/* Save playlist
+ * @param: none
+ * PostCondition: each song in mySongs will be written to the original text file overwriting any contents in the file
+ */
+void PlayList::save() const {
+    ofstream fout(fName);
+
+    // loop through all songs except last for adding newline
+    for (unsigned i = 0; i < mySongs.size()-1; i++) {
+        mySongs[i].writeTo(fout);
+        fout << '\n';
+    }
+    // last write done without adding new line
+    mySongs[mySongs.size()-1].writeTo(fout);
+
+	fout.close();
+}
